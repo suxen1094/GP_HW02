@@ -1,0 +1,1485 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'zh' Physical Memory: 32509 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/samchen/Desktop/大學/112學年度/112學年度上學期/遊戲程式設計/hw2/GP_HW02
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60935
+Successfully changed project path to: C:/Users/samchen/Desktop/大學/112學年度/112學年度上學期/遊戲程式設計/hw2/GP_HW02
+C:/Users/samchen/Desktop/大學/112學年度/112學年度上學期/遊戲程式設計/hw2/GP_HW02
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 60.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/samchen/Desktop/大學/112學年度/112學年度上學期/遊戲程式設計/hw2/GP_HW02/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3734
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003501 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.509 seconds
+Domain Reload Profiling:
+	ReloadAssembly (509ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (340ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004195 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.827 seconds
+Domain Reload Profiling:
+	ReloadAssembly (828ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (680ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.3 KB). Loaded Objects now: 3846.
+Memory consumption went from 130.0 MB to 129.9 MB.
+Total: 2.347700 ms (FindLiveObjects: 0.173700 ms CreateObjectMapping: 0.079300 ms MarkObjects: 2.015900 ms  DeleteObjects: 0.077800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 92517.851355 seconds.
+  path: Assets/UI Toolkit/PanelSettings.asset
+  artifactKey: Guid(72a77762c38bdc048875c6985554a737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/PanelSettings.asset using Guid(72a77762c38bdc048875c6985554a737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779de74b8c43de7270cea79e068e84fd') in 0.038094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.136336 seconds.
+  path: Assets/Scenes/battleScene
+  artifactKey: Guid(2aff8cbbdc96141428b7392b934a5915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/battleScene using Guid(2aff8cbbdc96141428b7392b934a5915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf2a6a09b156b53f7b790f2865cdd85') in 0.007758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.119802 seconds.
+  path: Assets/Scenes/battleScene/NavMesh.asset
+  artifactKey: Guid(86db66f01745ed349b2a680cccc5e9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/battleScene/NavMesh.asset using Guid(86db66f01745ed349b2a680cccc5e9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648b463cd8928bcbfbba0fb810fdea60') in 0.008085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.188012 seconds.
+  path: Assets/Scenes/battleScene.unity
+  artifactKey: Guid(d2d5b65ad8b734646afa6dfa9bf6e225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/battleScene.unity using Guid(d2d5b65ad8b734646afa6dfa9bf6e225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f0a1e9241a8ab1522393a68d4df206') in 0.007507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 330.394369 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack
+  artifactKey: Guid(d90e648c3f1d62841b4cf06f7e7d6fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack using Guid(d90e648c3f1d62841b4cf06f7e7d6fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3a20fe01c211f8d1300c6b2ff9e6fc') in 0.007938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.063648 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models
+  artifactKey: Guid(0fe0b923dc943244db6a33b3fefa9b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models using Guid(0fe0b923dc943244db6a33b3fefa9b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37682af7918c23a7ad41b1c40ee1a340') in 0.007672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.107242 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_campfire_001.fbx
+  artifactKey: Guid(7bdf6515110869142b46bac661edc2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_campfire_001.fbx using Guid(7bdf6515110869142b46bac661edc2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '0982cedc49987e041da1ebabd304df64') in 0.150298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_campfire_005.fbx
+  artifactKey: Guid(e35355cd5aa55cd488de684fe3b512d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_campfire_005.fbx using Guid(e35355cd5aa55cd488de684fe3b512d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: 'c6a72ca65b9a7c1aec8366d5b27273d7') in 0.021859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_planks_001.fbx
+  artifactKey: Guid(76b04e716f2c6dc4780b82290928f565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_planks_001.fbx using Guid(76b04e716f2c6dc4780b82290928f565) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '5e4b37a94f38db0ce3a8e36a8f205b79') in 0.021472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_campfire_004.fbx
+  artifactKey: Guid(4dc327039016fdf4bb6ee7a16c177a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_campfire_004.fbx using Guid(4dc327039016fdf4bb6ee7a16c177a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '20530c9a6a6e7ad8bcecfb7314e8e7f6') in 0.020255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_irontorch_001.fbx
+  artifactKey: Guid(9462069ff3e8ac4488797bd798ab754a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_irontorch_001.fbx using Guid(9462069ff3e8ac4488797bd798ab754a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '68353e06fa4c279f5bd3b40dcc8a5186') in 0.019897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_irontorch_002.fbx
+  artifactKey: Guid(c141fd4f46f7ad644bdf8bb93604866d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_irontorch_002.fbx using Guid(c141fd4f46f7ad644bdf8bb93604866d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: 'b9989151579a847caf83a97e25c41750') in 0.017927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.681138 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_torch_001.fbx
+  artifactKey: Guid(6d4f2c8a144ef1a468956e71f1c13915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_torch_001.fbx using Guid(6d4f2c8a144ef1a468956e71f1c13915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: 'f128e8de9303301708ca7c0a283e4ca7') in 0.020456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077737 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_torch_002.fbx
+  artifactKey: Guid(28c4751ae6a332a438b94e30eaa1ecb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_torch_002.fbx using Guid(28c4751ae6a332a438b94e30eaa1ecb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '952dc6dcc0429cf77f69bd008cbb2c36') in 0.020374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212419 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_torch_003.fbx
+  artifactKey: Guid(d304df27d965ec941bffd02ff03a4d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_torch_003.fbx using Guid(d304df27d965ec941bffd02ff03a4d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: 'ac4dd1536752979db59e43e004c77be2') in 0.020053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021877 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_trashcan_001.fbx
+  artifactKey: Guid(c5c9892498d5e994b9d198bc1fa9c7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Models/SM_trashcan_001.fbx using Guid(c5c9892498d5e994b9d198bc1fa9c7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: 'dae9bf58b018295c4f0a20709634ea4c') in 0.019999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.705694 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_campfire_001_AmbienceFX.prefab
+  artifactKey: Guid(e4f26a2795077c749a9c01f2c33c797d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_campfire_001_AmbienceFX.prefab using Guid(e4f26a2795077c749a9c01f2c33c797d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '3e339391a5fa1b7db0135de0636f5980') in 0.036316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_campfire_003_AmbienceFX.prefab
+  artifactKey: Guid(e216627273e5b3e488e02c547ae35664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_campfire_003_AmbienceFX.prefab using Guid(e216627273e5b3e488e02c547ae35664) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: 'a488a36e223f26347ecea7775f0340fc') in 0.025627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_irontorch_001.prefab
+  artifactKey: Guid(d4a432448a3d5e647bc2eb4e9fbddece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_irontorch_001.prefab using Guid(d4a432448a3d5e647bc2eb4e9fbddece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '87bbc283d03a0c03d2ebeca6690d2182') in 0.024407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_campfire_004.prefab
+  artifactKey: Guid(ca4e22f1f2a41604d8887fb4f60ce127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_campfire_004.prefab using Guid(ca4e22f1f2a41604d8887fb4f60ce127) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '0ce1200d3f4bdf71543a80fa2aee9b6a') in 0.019844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.825529 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_irontorch_003_AmbienceFX.prefab
+  artifactKey: Guid(2fa6be46c81c7fe459c9b54658d64e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_irontorch_003_AmbienceFX.prefab using Guid(2fa6be46c81c7fe459c9b54658d64e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '5cd12b394809c36c22f9eb2edf9c19b6') in 0.028211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.211689 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_planks_002.prefab
+  artifactKey: Guid(ea841482b40ca984ba1d9813f5bae5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_planks_002.prefab using Guid(ea841482b40ca984ba1d9813f5bae5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: 'a05e2a6c3a5986c84e9c3d603ebb6ea0') in 0.016816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021466 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_props_candle_01.prefab
+  artifactKey: Guid(8bd8d6e75647b574bb81b82c3d1177f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_props_candle_01.prefab using Guid(8bd8d6e75647b574bb81b82c3d1177f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '4b13b0f8ecdc89dee4ecb50949db401d') in 0.018762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.223235 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_props_candle_02.prefab
+  artifactKey: Guid(d0e28842d93f5db42b0c0bb70755da8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_props_candle_02.prefab using Guid(d0e28842d93f5db42b0c0bb70755da8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '49b0f89340c23d600c0243be087ee990') in 0.013886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.239465 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_torch_001_AmbienceFX.prefab
+  artifactKey: Guid(9a8a745f10692fd4b82039a679ffcaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_torch_001_AmbienceFX.prefab using Guid(9a8a745f10692fd4b82039a679ffcaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: 'b33afb2d68b669b0308c93c68184bf4f') in 0.025305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.219804 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_torch_002_AmbienceFX.prefab
+  artifactKey: Guid(e9e2e298b79622140b4b0ef76ef5463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_torch_002_AmbienceFX.prefab using Guid(e9e2e298b79622140b4b0ef76ef5463b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '3ff90259a2f85591e1aefad45ddc30a7') in 0.024052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221634 seconds.
+  path: Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_trashcan_001_AmbienceFX.prefab
+  artifactKey: Guid(e44b755a6c7359a44be4bf49b7b04dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Campfire And Torches Pack/Prefabs/SM_trashcan_001_AmbienceFX.prefab using Guid(e44b755a6c7359a44be4bf49b7b04dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '3a8b5591f204a5ee9bbc6e9fc93847b4') in 0.036829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.344321 seconds.
+  path: Assets/importAssets/Piloto Studio/Materials/Shared/Flare_FatDot_Add_Soft.mat
+  artifactKey: Guid(c5af313e076fb404ca65c0ba49e60f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Materials/Shared/Flare_FatDot_Add_Soft.mat using Guid(c5af313e076fb404ca65c0ba49e60f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8078bfffdbc51a067d0298f2356f235e') in 0.029426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/importAssets/Piloto Studio/Materials/Shared/Nokdef_Additive Uber Shader.mat
+  artifactKey: Guid(661da4e08f699014dadcffd348c96a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Materials/Shared/Nokdef_Additive Uber Shader.mat using Guid(661da4e08f699014dadcffd348c96a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da9373da65ceea4399fa13c31ccfc9a') in 0.014372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.971563 seconds.
+  path: Assets/importAssets/Piloto Studio/Textures/FireQuad_Stylized.png
+  artifactKey: Guid(d2a0655842a345e3a08c94b09a7483f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Textures/FireQuad_Stylized.png using Guid(d2a0655842a345e3a08c94b09a7483f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e280e8657d84310f327a84bb73dd627') in 0.071063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/importAssets/Piloto Studio/Textures/Flare_Glowdot.png
+  artifactKey: Guid(c5a2c4ede3a972e46b11c62b98975f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Textures/Flare_Glowdot.png using Guid(c5a2c4ede3a972e46b11c62b98975f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817853fc71d72c9da3120b9ca170598a') in 0.020886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.248839 seconds.
+  path: Assets/importAssets/Piloto Studio/Shaders/Functions/Channel Picker.asset
+  artifactKey: Guid(dc5f4cb24a8bdf448b40a1ec5866280e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Shaders/Functions/Channel Picker.asset using Guid(dc5f4cb24a8bdf448b40a1ec5866280e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd46f54c9c8800620498ea753b1b997') in 0.008861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.001778 seconds.
+  path: Assets/importAssets/Piloto Studio/Shaders/ToonyShader/GradModels_Toony.mat
+  artifactKey: Guid(2a968aa3406ef9441a14e5e68e2f7bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Piloto Studio/Shaders/ToonyShader/GradModels_Toony.mat using Guid(2a968aa3406ef9441a14e5e68e2f7bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+Shader error in 'Piloto Studio/Toony Prop': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 633
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _ALPHATEST_ON _BLENDMODE_ADD _BLENDMODE_ALPHA _BLENDMODE_PRE_MULTIPLY _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+ -> (artifact id: '3c769c3c9cd4d0c47b16f57c7fd93494') in 0.015995 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003497 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.648 seconds
+Domain Reload Profiling:
+	ReloadAssembly (648ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (495ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (163ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (216ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (158.2 KB). Loaded Objects now: 3894.
+Memory consumption went from 135.2 MB to 135.0 MB.
+Total: 2.206700 ms (FindLiveObjects: 0.164500 ms CreateObjectMapping: 0.081000 ms MarkObjects: 1.835900 ms  DeleteObjects: 0.124200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003341 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.648 seconds
+Domain Reload Profiling:
+	ReloadAssembly (648ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (493ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 3897.
+Memory consumption went from 135.1 MB to 135.0 MB.
+Total: 2.238000 ms (FindLiveObjects: 0.166800 ms CreateObjectMapping: 0.073200 ms MarkObjects: 1.927600 ms  DeleteObjects: 0.069400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003453 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.570 seconds
+Domain Reload Profiling:
+	ReloadAssembly (570ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (425ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (141ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.9 KB). Loaded Objects now: 3900.
+Memory consumption went from 135.1 MB to 135.0 MB.
+Total: 3.194600 ms (FindLiveObjects: 0.338300 ms CreateObjectMapping: 0.113500 ms MarkObjects: 2.656100 ms  DeleteObjects: 0.085400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007234 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1143ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (871ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.9 KB). Loaded Objects now: 3903.
+Memory consumption went from 135.1 MB to 135.0 MB.
+Total: 1.893100 ms (FindLiveObjects: 0.150400 ms CreateObjectMapping: 0.065200 ms MarkObjects: 1.619300 ms  DeleteObjects: 0.057200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006649 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.134 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1135ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (867ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.9 KB). Loaded Objects now: 3906.
+Memory consumption went from 135.1 MB to 135.0 MB.
+Total: 2.681100 ms (FindLiveObjects: 0.173800 ms CreateObjectMapping: 0.082500 ms MarkObjects: 2.344800 ms  DeleteObjects: 0.079100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008587 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1098ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (365ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 3909.
+Memory consumption went from 135.1 MB to 135.1 MB.
+Total: 3.398700 ms (FindLiveObjects: 0.364400 ms CreateObjectMapping: 0.096000 ms MarkObjects: 2.828600 ms  DeleteObjects: 0.108100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010533 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.078 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1079ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (825ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 3912.
+Memory consumption went from 135.1 MB to 135.1 MB.
+Total: 3.300800 ms (FindLiveObjects: 0.390400 ms CreateObjectMapping: 0.096400 ms MarkObjects: 2.705900 ms  DeleteObjects: 0.105900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006432 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.069 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1070ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (809ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.9 KB). Loaded Objects now: 3915.
+Memory consumption went from 135.2 MB to 135.1 MB.
+Total: 3.628700 ms (FindLiveObjects: 0.666000 ms CreateObjectMapping: 0.194000 ms MarkObjects: 2.674400 ms  DeleteObjects: 0.092300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006431 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.225 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1226ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (968ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 3918.
+Memory consumption went from 135.2 MB to 135.1 MB.
+Total: 4.459300 ms (FindLiveObjects: 0.431200 ms CreateObjectMapping: 0.133700 ms MarkObjects: 3.771100 ms  DeleteObjects: 0.121800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006656 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1148ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (876ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (392ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.9 KB). Loaded Objects now: 3921.
+Memory consumption went from 135.2 MB to 135.1 MB.
+Total: 4.306600 ms (FindLiveObjects: 0.397400 ms CreateObjectMapping: 0.120700 ms MarkObjects: 3.683900 ms  DeleteObjects: 0.103500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008283 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.136 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1137ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (857ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (366ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 3924.
+Memory consumption went from 135.2 MB to 135.1 MB.
+Total: 3.177400 ms (FindLiveObjects: 0.334700 ms CreateObjectMapping: 0.092500 ms MarkObjects: 2.658200 ms  DeleteObjects: 0.090900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009179 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.080 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1081ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (813ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (359ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (79.0 KB). Loaded Objects now: 3927.
+Memory consumption went from 135.2 MB to 135.1 MB.
+Total: 3.930000 ms (FindLiveObjects: 0.412500 ms CreateObjectMapping: 0.143300 ms MarkObjects: 3.258900 ms  DeleteObjects: 0.113400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004695 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Domain Reload Profiling:
+	ReloadAssembly (971ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (618ms)
+			LoadAssemblies (202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3473 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (4.7 MB). Loaded Objects now: 3971.
+Memory consumption went from 148.1 MB to 143.3 MB.
+Total: 2.751000 ms (FindLiveObjects: 0.159800 ms CreateObjectMapping: 0.069400 ms MarkObjects: 1.672800 ms  DeleteObjects: 0.848100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005504 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.631 seconds
+Domain Reload Profiling:
+	ReloadAssembly (631ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (487ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3473 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (4.7 MB). Loaded Objects now: 3974.
+Memory consumption went from 148.1 MB to 143.4 MB.
+Total: 2.898800 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.095200 ms MarkObjects: 1.672400 ms  DeleteObjects: 0.834900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15998.371582 seconds.
+  path: Assets/importAssets/Dinner table/Materials/Candles.mat
+  artifactKey: Guid(978cafabf1b82074fab79b857527692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Materials/Candles.mat using Guid(978cafabf1b82074fab79b857527692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cef2f2d1bd20cf7379c0357608890c') in 0.081546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/importAssets/Dinner table/Materials/carrot.mat
+  artifactKey: Guid(22dec637081447c4aabb0f13d837d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Materials/carrot.mat using Guid(22dec637081447c4aabb0f13d837d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38313f3d5548b79ba13e00ac82a0c01d') in 0.019081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/importAssets/Dinner table/Materials/Table.mat
+  artifactKey: Guid(531afd0403dc15a449604ebb64cd5b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Materials/Table.mat using Guid(531afd0403dc15a449604ebb64cd5b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1595740afb1d6c11cc6b170062000405') in 0.160721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/importAssets/Dinner table/Materials/Plate.mat
+  artifactKey: Guid(afd81ac022ad26b43837c20d95f05b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Materials/Plate.mat using Guid(afd81ac022ad26b43837c20d95f05b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774feb4db0b362f7202693d500c7eab7') in 0.174164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/importAssets/Dinner table/Materials/Tablecloth.mat
+  artifactKey: Guid(0e11888631adf6d46b8c725c6ade9309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Materials/Tablecloth.mat using Guid(0e11888631adf6d46b8c725c6ade9309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb7bbf13c390aef02d5c57cf3f1847b') in 0.132498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.657631 seconds.
+  path: Assets/importAssets/Dinner table/Models/Candle_2.FBX
+  artifactKey: Guid(efd7b31bc316e014fb44b5ef4089104e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Models/Candle_2.FBX using Guid(efd7b31bc316e014fb44b5ef4089104e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb03137838e0e03cd3ecc912d02bb48') in 0.037683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/importAssets/Dinner table/Models/Cup.FBX
+  artifactKey: Guid(056a8215673193e4faaa699e64c0a540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Models/Cup.FBX using Guid(056a8215673193e4faaa699e64c0a540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9b969088976edb5d2f917e858bd6f7') in 0.017433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/importAssets/Dinner table/Models/Chair.FBX
+  artifactKey: Guid(5acd2d82c9358bb4a89ba07849d89c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Models/Chair.FBX using Guid(5acd2d82c9358bb4a89ba07849d89c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c5dc19f5224ee676e9dc7e5b88b22b') in 0.016221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/importAssets/Dinner table/Models/Table.FBX
+  artifactKey: Guid(bfa9cb3e422d49140a739678296b1749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Models/Table.FBX using Guid(bfa9cb3e422d49140a739678296b1749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94eb05b4b81bab9c0a371b28006fef1') in 0.015897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/importAssets/Dinner table/Models/Plate.FBX
+  artifactKey: Guid(593c0d665d2d1e44dad6cbb9cb599529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Models/Plate.FBX using Guid(593c0d665d2d1e44dad6cbb9cb599529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5693635a6b9eb4769a70fdca777baaf') in 0.016758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/importAssets/Dinner table/Models/Chicken_1.FBX
+  artifactKey: Guid(abd8793c07e515e468d9fbd1d76d2c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Models/Chicken_1.FBX using Guid(abd8793c07e515e468d9fbd1d76d2c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '709a0d9ba79486fbcfcbfd88d0236351') in 0.017670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/importAssets/Dinner table/Models/Carpet_2_1.FBX
+  artifactKey: Guid(b070c6bc44fb4fa4a83665e01425fd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Models/Carpet_2_1.FBX using Guid(b070c6bc44fb4fa4a83665e01425fd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7535e0ea8aa79c7b30f9a989e4eacd1a') in 0.023768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.968139 seconds.
+  path: Assets/importAssets/Dinner table/Scene_1/Lightmap-1_comp_light.exr
+  artifactKey: Guid(601a6007de4455948b91143b230eca0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Scene_1/Lightmap-1_comp_light.exr using Guid(601a6007de4455948b91143b230eca0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbb5aac1082ff89664350d2399bf689') in 0.052310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.110149 seconds.
+  path: Assets/importAssets/Dinner table/Textures/Carpet_2_specular.tif
+  artifactKey: Guid(310918e2a603eff49bd7e581ca54e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Textures/Carpet_2_specular.tif using Guid(310918e2a603eff49bd7e581ca54e58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08f8737aed7e2b7de7c34f8350cfdd4') in 0.034581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/importAssets/Dinner table/Textures/Chair_normal.tif
+  artifactKey: Guid(4b04facb33f2eb646a0c25539a842d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Textures/Chair_normal.tif using Guid(4b04facb33f2eb646a0c25539a842d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f7d48438ae75535e895dd4feb2334e') in 0.022369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/importAssets/Dinner table/Textures/Table_specular.tif
+  artifactKey: Guid(e510e68392b5d5e40aa63fa91940768d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Textures/Table_specular.tif using Guid(e510e68392b5d5e40aa63fa91940768d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c3229e08dc3ff2bf009d2c2f8fa8f2') in 0.018324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/importAssets/Dinner table/Textures/Chicken_specular.tif
+  artifactKey: Guid(866414253e44c9c4c92b8dcf95455f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Textures/Chicken_specular.tif using Guid(866414253e44c9c4c92b8dcf95455f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fddf861c63015b76d7f26d2a26960d2') in 0.024074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/importAssets/Dinner table/Textures/Tablecloth_blue_texture.tif
+  artifactKey: Guid(56829d1d78dd0fc4783af1fa926e2064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Textures/Tablecloth_blue_texture.tif using Guid(56829d1d78dd0fc4783af1fa926e2064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2882e53cfbf6d110994e41cdb99e71c') in 0.018299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/importAssets/Dinner table/Textures/Flame.tif
+  artifactKey: Guid(b20d462121934824baa5d995b4eed367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Textures/Flame.tif using Guid(b20d462121934824baa5d995b4eed367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9dbca7ddfbaea2aec8e42835d778f6') in 0.013326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/importAssets/Dinner table/Textures/carrot.tif
+  artifactKey: Guid(030566a87962f934283604059d2bf538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/importAssets/Dinner table/Textures/carrot.tif using Guid(030566a87962f934283604059d2bf538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57c65384ef5832fbb083c92640f9e22') in 0.030666 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
