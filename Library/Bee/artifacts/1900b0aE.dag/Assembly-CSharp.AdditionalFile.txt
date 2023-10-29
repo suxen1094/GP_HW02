@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 D:\02 Tools\UnityProjects\HW02
-=======
-C:\Users\samchen\Desktop\大學\112學年度\112學年度上學期\遊戲程式設計\hw2\GP_HW02
->>>>>>> 0d233497ca38fd142f077646f72bf15ca2d84836
