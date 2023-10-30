@@ -62,10 +62,10 @@
     <Analyzer Include="C:\Users\蘇志翔\.vscode\extensions\visualstudiotoolsforunity.vstuc-0.9.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\importAssets\Dinner table\Editor\ImageEffects\BloomEditor.cs" />
-    <Compile Include="Assets\importAssets\Dinner table\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
-    <Compile Include="Assets\importAssets\Dinner table\Editor\ImageEffects\AntialiasingEditor.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Editor\CreateLocatorHere.cs" />
+    <Compile Include="Assets\Chen_ImportAssets\Dinner table\Editor\ImageEffects\BloomEditor.cs" />
+    <Compile Include="Assets\Chen_ImportAssets\Dinner table\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
+    <Compile Include="Assets\Chen_ImportAssets\Dinner table\Editor\ImageEffects\AntialiasingEditor.cs" />
+    <Compile Include="Assets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Editor\CreateLocatorHere.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

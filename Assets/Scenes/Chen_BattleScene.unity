@@ -361,6 +361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Polygonal Metalon Green (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -688,6 +692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Polygonal Metalon Green (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -904,8 +912,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429409933}
-  m_LocalRotation: {x: 0.5891263, y: -0, z: -0, w: 0.808041}
-  m_LocalPosition: {x: 569, y: 772, z: 162}
+  m_LocalRotation: {x: 0.048945155, y: 0.8826571, z: -0.45783958, w: 0.09436001}
+  m_LocalPosition: {x: 321.7987, y: 60.965435, z: 289.11746}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1020,6 +1028,10 @@ PrefabInstance:
     - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_Name
       value: Polygonal Metalon Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
+      propertyPath: m_TagString
+      value: Monster
       objectReference: {fileID: 0}
     - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_RootOrder
@@ -1171,6 +1183,10 @@ PrefabInstance:
     - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_Name
       value: Polygonal Metalon Green (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
+      propertyPath: m_TagString
+      value: Monster
       objectReference: {fileID: 0}
     - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_RootOrder
@@ -1617,6 +1633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Polygonal Metalon Green (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -1956,6 +1976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chicken_1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
+      propertyPath: m_TagString
+      value: HealingItem
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -2047,6 +2071,10 @@ PrefabInstance:
     - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_Name
       value: Polygonal Metalon Green (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
+      propertyPath: m_TagString
+      value: Monster
       objectReference: {fileID: 0}
     - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_RootOrder
@@ -2198,6 +2226,10 @@ PrefabInstance:
     - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_Name
       value: Polygonal Metalon Green (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
+      propertyPath: m_TagString
+      value: Monster
       objectReference: {fileID: 0}
     - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_RootOrder
@@ -2738,6 +2770,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Polygonal Metalon Green (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -3130,6 +3166,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_Name
       value: Chicken_1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
+      propertyPath: m_TagString
+      value: HealingItem
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_RootOrder
@@ -3724,6 +3764,10 @@ PrefabInstance:
     - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_Name
       value: Polygonal Metalon Green (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
+      propertyPath: m_TagString
+      value: Monster
       objectReference: {fileID: 0}
     - target: {fileID: 4215789226532830, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
       propertyPath: m_RootOrder

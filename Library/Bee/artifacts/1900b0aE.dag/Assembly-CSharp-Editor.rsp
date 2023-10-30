@@ -368,10 +368,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/importAssets/Dinner table/Editor/ImageEffects/AntialiasingEditor.cs"
-"Assets/importAssets/Dinner table/Editor/ImageEffects/BloomAndFlaresEditor.cs"
-"Assets/importAssets/Dinner table/Editor/ImageEffects/BloomEditor.cs"
-"Assets/unity-chan!/Unity-chan! Model/Editor/CreateLocatorHere.cs"
+"Assets/Chen_ImportAssets/Dinner table/Editor/ImageEffects/AntialiasingEditor.cs"
+"Assets/Chen_ImportAssets/Dinner table/Editor/ImageEffects/BloomAndFlaresEditor.cs"
+"Assets/Chen_ImportAssets/Dinner table/Editor/ImageEffects/BloomEditor.cs"
+"Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Editor/CreateLocatorHere.cs"
 -langversion:9.0
 
 /deterministic
