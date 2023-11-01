@@ -115,6 +115,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"D:/02 Tools/Unity/UnityEditor/2021.3.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -328,6 +329,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Postprocessing.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Analytics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Services.Core.Environments.ref.dll"
@@ -351,7 +354,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Assets_chen20231031/spiderMonster.cs"
 "Assets/Chen_ImportAssets/Dinner table/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs"
 "Assets/Chen_ImportAssets/Dinner table/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs"
 "Assets/Chen_ImportAssets/Dinner table/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs"
@@ -391,19 +393,9 @@
 "Assets/Chen_ImportAssets/Dinner table/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs"
 "Assets/Chen_ImportAssets/Dinner table/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs"
 "Assets/LinWanChing/Menu/Script/MenuScript.cs"
+"Assets/Scripts/spiderMonster.cs"
 "Assets/Scripts/Su/HPHandler.cs"
 "Assets/Scripts/Su/PlayerControl.cs"
-"Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Scripts/AutoBlink.cs"
-"Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Scripts/CameraController.cs"
-"Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Scripts/FaceUpdate.cs"
-"Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Scripts/IdleChanger.cs"
-"Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Scripts/IKCtrlRightHand.cs"
-"Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Scripts/RandomWind.cs"
-"Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Scripts/SpringBone.cs"
-"Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Scripts/SpringCollider.cs"
-"Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Scripts/SpringManager.cs"
-"Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Scripts/ThirdPersonCamera.cs"
-"Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Scripts/UnityChanControlScriptWithRgidBody.cs"
 "Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/SplashScreen/Scripts/SplashScreen.cs"
 -langversion:9.0
 

@@ -1,0 +1,267 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'zh' Physical Memory: 16010 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\02 Tools\Unity\UnityEditor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/02 Tools/UnityProjects/HW02
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53267
+Successfully changed project path to: D:/02 Tools/UnityProjects/HW02
+D:/02 Tools/UnityProjects/HW02
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 72.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path D:/02 Tools/Unity/UnityEditor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/02 Tools/UnityProjects/HW02/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.4592
+Initialize mono
+Mono path[0] = 'D:/02 Tools/Unity/UnityEditor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/02 Tools/Unity/UnityEditor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/02 Tools/Unity/UnityEditor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/02 Tools/Unity/UnityEditor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002233 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 76.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.599 seconds
+Domain Reload Profiling:
+	ReloadAssembly (600ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (431ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003038 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\02 Tools\UnityProjects\HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\02 Tools\UnityProjects\HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Domain Reload Profiling:
+	ReloadAssembly (841ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (684ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Failed to load shader (instanceID 548, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3679 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (129.1 KB). Loaded Objects now: 4156.
+Memory consumption went from 162.6 MB to 162.4 MB.
+Total: 3.540900 ms (FindLiveObjects: 0.301000 ms CreateObjectMapping: 0.135000 ms MarkObjects: 2.948000 ms  DeleteObjects: 0.155300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 230571.388747 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/hk_rh_right_A.fbx
+  artifactKey: Guid(6d57102141fc7184db95eafa963b4572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/hk_rh_right_A.fbx using Guid(6d57102141fc7184db95eafa963b4572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fd67df62e2ffbb777d55b73dbd94c4') in 0.165923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/bd_front_A.fbx
+  artifactKey: Guid(570197eb6cbea1c479c35bda442dada9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/bd_front_A.fbx using Guid(570197eb6cbea1c479c35bda442dada9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08e8726faf28e989c8f1e325e3d5641') in 0.045686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/bk_push_left_A.fbx
+  artifactKey: Guid(e4f3ef320ac0e124fbd5766ab8a38cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/bk_push_left_A.fbx using Guid(e4f3ef320ac0e124fbd5766ab8a38cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c65dd5587d30170bb14966c3fbd4dcb') in 0.049114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/ld_front_A.fbx
+  artifactKey: Guid(028821a698cf0654c8d9d6aa19889290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/ld_front_A.fbx using Guid(028821a698cf0654c8d9d6aa19889290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ead01bf88f55328873044c83cdc35a') in 0.046624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/BlueGuy.fbx
+  artifactKey: Guid(0bf37dc7372c57146bfc553d666ef609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/BlueGuy.fbx using Guid(0bf37dc7372c57146bfc553d666ef609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acc6a930c84e63df37438d94cd4e855') in 0.044331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/bp_upper_left_A.fbx
+  artifactKey: Guid(34b0f0ed3390d964b8b6b299db28f69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/bp_upper_left_A.fbx using Guid(34b0f0ed3390d964b8b6b299db28f69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4566e43d244daa332b673ea5a03649') in 0.048058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/lk_rh_right_A.fbx
+  artifactKey: Guid(eea3a4476bab05b458d87a5b376889c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/lk_rh_right_A.fbx using Guid(eea3a4476bab05b458d87a5b376889c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e785c33c7c5757b052d38bb822744aca') in 0.051589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/bk_rh_right_A.fbx
+  artifactKey: Guid(82ff370070ffcb846a647642afec9429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/bk_rh_right_A.fbx using Guid(82ff370070ffcb846a647642afec9429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e35fab5983e36dce237f6a904eeefb8') in 0.051638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/hp_hook_left_A.fbx
+  artifactKey: Guid(e85eabbd59e479e48a4b8d0cb836f2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/hp_hook_left_A.fbx using Guid(e85eabbd59e479e48a4b8d0cb836f2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7caafcab19b11950ae87b4a4c6402645') in 0.041331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/hd_front_A.fbx
+  artifactKey: Guid(b1d836fe66d68fe4b9921d0d510eee15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/hd_front_A.fbx using Guid(b1d836fe66d68fe4b9921d0d510eee15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee30d29df4b1797482b384d039a1772') in 0.053971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/lk_rh_left_A.fbx
+  artifactKey: Guid(b89157ae667535c4480304ff481b791b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/lk_rh_left_A.fbx using Guid(b89157ae667535c4480304ff481b791b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906a047e9d3f71132914616b902e8dba') in 0.040782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/knockdown_loop_A.fbx
+  artifactKey: Guid(3ff1228a6fef1834f96812bc96c1d41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/knockdown_loop_A.fbx using Guid(3ff1228a6fef1834f96812bc96c1d41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f8426227d5c984db4452d687b74d5c') in 0.048615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/hp_straight_left_A.fbx
+  artifactKey: Guid(e0ad8083c895ff74ea01f55b82884971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/hp_straight_left_A.fbx using Guid(e0ad8083c895ff74ea01f55b82884971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820a158add8b9ca6054d94ea790eef3e') in 0.041945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1
+  artifactKey: Guid(35d88f1036ab2724bbae0e9d4cf765e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1 using Guid(35d88f1036ab2724bbae0e9d4cf765e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7507edd6a20d93fa372f2c9b90ef54') in 0.002052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/hk_side_left_A.fbx
+  artifactKey: Guid(32ed0de2e84ee9540870e3c35b13272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/hk_side_left_A.fbx using Guid(32ed0de2e84ee9540870e3c35b13272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd278510af01738d4475a41b7e1d0948b') in 0.045383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/move_backward_B.fbx
+  artifactKey: Guid(235c95899b878bb47a6e6decf0954821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/move_backward_B.fbx using Guid(235c95899b878bb47a6e6decf0954821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9128753f7f0c0d6237c205e31c1b34') in 0.047930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/idle_Tiramis.fbx
+  artifactKey: Guid(243b013a8548d9344b2e92934493d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/FightingMotionsVolume1/FBX/idle_Tiramis.fbx using Guid(243b013a8548d9344b2e92934493d476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c73cc8444f5b68a29b7a628b77eeca') in 0.039675 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -624,10 +624,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  forward_speed: 5
-  backward_speed: 2
-  rotate_speed: 2
-  jump_power: 2.5
+  forward_speed: 3
+  backward_speed: 1.5
+  rotate_speed: 1.5
+  jump_power: 7
   use_curve_height: 0.3
 --- !u!1 &1628189393
 GameObject:

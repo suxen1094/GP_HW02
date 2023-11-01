@@ -90,7 +90,7 @@ public class PlayerControl : MonoBehaviour
     {
         float v = Input.GetAxis("Vertical");
         float h = Input.GetAxis("Horizontal");
-        if (attacking == true) print(attacking);
+        
         if (!attacking)
         {
             animator.SetFloat("Speed", v);
