@@ -432,6 +432,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
   m_PrefabInstance: {fileID: 201556239}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &201556241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201556240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e127fcec3a6a9479178eaf1155f7ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1857512648}
+  rushVelocity: 500
+  stopAttackingSeconds: 5
+  waitForRushSeconds: 1.5
+  rangeOfSensor: 500
+  rangeOfAttack: 20
+  maxHp: 10
+  destroyingSeconds: 0
+  playerTag: Player
 --- !u!195 &201556242
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -484,31 +505,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &201556245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201556240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 629f677f548bf1c4395cf06318833e4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  injuriedAudioClip: {fileID: 0}
-  audioPlayer: {fileID: 0}
-  injuriedParticleSystem: {fileID: 1581210467270047013, guid: 35ca59b72e254ce4aad095e5afae9882, type: 3}
-  player: {fileID: 0}
-  rushVelocity: 500
-  stopAttackingSeconds: 5
-  waitForRushSeconds: 1.5
-  emitParticleSeconds: 1
-  rangeOfSensor: 500
-  rangeOfAttack: 20
-  maxHp: 10
-  destroyingSeconds: 0
-  playerTag: Player
 --- !u!1 &308466852
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,6 +763,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
   m_PrefabInstance: {fileID: 343621168}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &343621170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343621169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e127fcec3a6a9479178eaf1155f7ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1857512648}
+  rushVelocity: 500
+  stopAttackingSeconds: 5
+  waitForRushSeconds: 1.5
+  rangeOfSensor: 500
+  rangeOfAttack: 20
+  maxHp: 10
+  destroyingSeconds: 0
+  playerTag: Player
 --- !u!195 &343621171
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -819,31 +836,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &343621174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343621169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 629f677f548bf1c4395cf06318833e4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  injuriedAudioClip: {fileID: 0}
-  audioPlayer: {fileID: 0}
-  injuriedParticleSystem: {fileID: 1581210467270047013, guid: 35ca59b72e254ce4aad095e5afae9882, type: 3}
-  player: {fileID: 0}
-  rushVelocity: 500
-  stopAttackingSeconds: 5
-  waitForRushSeconds: 1.5
-  emitParticleSeconds: 1
-  rangeOfSensor: 500
-  rangeOfAttack: 20
-  maxHp: 10
-  destroyingSeconds: 0
-  playerTag: Player
 --- !u!1 &429409933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,17 +1161,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 563602217}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 629f677f548bf1c4395cf06318833e4b, type: 3}
+  m_Script: {fileID: 11500000, guid: 31e127fcec3a6a9479178eaf1155f7ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  injuriedAudioClip: {fileID: 0}
-  audioPlayer: {fileID: 0}
-  injuriedParticleSystem: {fileID: 1581210467270047013, guid: 35ca59b72e254ce4aad095e5afae9882, type: 3}
-  player: {fileID: 0}
+  player: {fileID: 1857512648}
   rushVelocity: 500
   stopAttackingSeconds: 5
   waitForRushSeconds: 1.5
-  emitParticleSeconds: 1
   rangeOfSensor: 500
   rangeOfAttack: 20
   maxHp: 10
@@ -1267,6 +1255,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
   m_PrefabInstance: {fileID: 576149217}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &576149219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576149218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e127fcec3a6a9479178eaf1155f7ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1857512648}
+  rushVelocity: 500
+  stopAttackingSeconds: 5
+  waitForRushSeconds: 1.5
+  rangeOfSensor: 500
+  rangeOfAttack: 20
+  maxHp: 10
+  destroyingSeconds: 0
+  playerTag: Player
 --- !u!195 &576149220
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1319,31 +1328,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &576149223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 576149218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 629f677f548bf1c4395cf06318833e4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  injuriedAudioClip: {fileID: 0}
-  audioPlayer: {fileID: 0}
-  injuriedParticleSystem: {fileID: 1581210467270047013, guid: 35ca59b72e254ce4aad095e5afae9882, type: 3}
-  player: {fileID: 0}
-  rushVelocity: 500
-  stopAttackingSeconds: 5
-  waitForRushSeconds: 1.5
-  emitParticleSeconds: 1
-  rangeOfSensor: 500
-  rangeOfAttack: 20
-  maxHp: 10
-  destroyingSeconds: 0
-  playerTag: Player
 --- !u!1 &689750873
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,6 +1704,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
   m_PrefabInstance: {fileID: 826481639}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &826481641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826481640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e127fcec3a6a9479178eaf1155f7ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1857512648}
+  rushVelocity: 500
+  stopAttackingSeconds: 5
+  waitForRushSeconds: 1.5
+  rangeOfSensor: 500
+  rangeOfAttack: 20
+  maxHp: 10
+  destroyingSeconds: 0
+  playerTag: Player
 --- !u!195 &826481642
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1772,31 +1777,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &826481645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826481640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 629f677f548bf1c4395cf06318833e4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  injuriedAudioClip: {fileID: 0}
-  audioPlayer: {fileID: 0}
-  injuriedParticleSystem: {fileID: 1581210467270047013, guid: 35ca59b72e254ce4aad095e5afae9882, type: 3}
-  player: {fileID: 0}
-  rushVelocity: 500
-  stopAttackingSeconds: 5
-  waitForRushSeconds: 1.5
-  emitParticleSeconds: 1
-  rangeOfSensor: 500
-  rangeOfAttack: 20
-  maxHp: 10
-  destroyingSeconds: 0
-  playerTag: Player
 --- !u!1 &887590641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2163,6 +2143,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
   m_PrefabInstance: {fileID: 1036948347}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1036948349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036948348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e127fcec3a6a9479178eaf1155f7ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1857512648}
+  rushVelocity: 500
+  stopAttackingSeconds: 5
+  waitForRushSeconds: 1.5
+  rangeOfSensor: 500
+  rangeOfAttack: 20
+  maxHp: 10
+  destroyingSeconds: 0
+  playerTag: Player
 --- !u!195 &1036948350
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2215,31 +2216,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1036948353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036948348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 629f677f548bf1c4395cf06318833e4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  injuriedAudioClip: {fileID: 0}
-  audioPlayer: {fileID: 0}
-  injuriedParticleSystem: {fileID: 1581210467270047013, guid: 35ca59b72e254ce4aad095e5afae9882, type: 3}
-  player: {fileID: 0}
-  rushVelocity: 500
-  stopAttackingSeconds: 5
-  waitForRushSeconds: 1.5
-  emitParticleSeconds: 1
-  rangeOfSensor: 500
-  rangeOfAttack: 20
-  maxHp: 10
-  destroyingSeconds: 0
-  playerTag: Player
 --- !u!1001 &1098964596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2322,6 +2298,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
   m_PrefabInstance: {fileID: 1098964596}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1098964598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098964597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e127fcec3a6a9479178eaf1155f7ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1857512648}
+  rushVelocity: 500
+  stopAttackingSeconds: 5
+  waitForRushSeconds: 1.5
+  rangeOfSensor: 500
+  rangeOfAttack: 20
+  maxHp: 10
+  destroyingSeconds: 0
+  playerTag: Player
 --- !u!195 &1098964599
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2374,31 +2371,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1098964602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1098964597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 629f677f548bf1c4395cf06318833e4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  injuriedAudioClip: {fileID: 0}
-  audioPlayer: {fileID: 0}
-  injuriedParticleSystem: {fileID: 1581210467270047013, guid: 35ca59b72e254ce4aad095e5afae9882, type: 3}
-  player: {fileID: 0}
-  rushVelocity: 500
-  stopAttackingSeconds: 5
-  waitForRushSeconds: 1.5
-  emitParticleSeconds: 1
-  rangeOfSensor: 500
-  rangeOfAttack: 20
-  maxHp: 10
-  destroyingSeconds: 0
-  playerTag: Player
 --- !u!1 &1128272574
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,6 +2841,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
   m_PrefabInstance: {fileID: 1300236754}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1300236756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300236755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e127fcec3a6a9479178eaf1155f7ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1857512648}
+  rushVelocity: 500
+  stopAttackingSeconds: 5
+  waitForRushSeconds: 1.5
+  rangeOfSensor: 500
+  rangeOfAttack: 20
+  maxHp: 10
+  destroyingSeconds: 0
+  playerTag: Player
 --- !u!195 &1300236757
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2921,31 +2914,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1300236760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1300236755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 629f677f548bf1c4395cf06318833e4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  injuriedAudioClip: {fileID: 0}
-  audioPlayer: {fileID: 0}
-  injuriedParticleSystem: {fileID: 1581210467270047013, guid: 35ca59b72e254ce4aad095e5afae9882, type: 3}
-  player: {fileID: 0}
-  rushVelocity: 500
-  stopAttackingSeconds: 5
-  waitForRushSeconds: 1.5
-  emitParticleSeconds: 1
-  rangeOfSensor: 500
-  rangeOfAttack: 20
-  maxHp: 10
-  destroyingSeconds: 0
-  playerTag: Player
 --- !u!1 &1375005126
 GameObject:
   m_ObjectHideFlags: 0
@@ -3868,6 +3836,27 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1783563462218004, guid: 7f931d4b5c97d194d8726ddf5acdd440, type: 3}
   m_PrefabInstance: {fileID: 2063239624}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2063239626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063239625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e127fcec3a6a9479178eaf1155f7ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1857512648}
+  rushVelocity: 500
+  stopAttackingSeconds: 5
+  waitForRushSeconds: 1.5
+  rangeOfSensor: 500
+  rangeOfAttack: 20
+  maxHp: 10
+  destroyingSeconds: 0
+  playerTag: Player
 --- !u!195 &2063239627
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3920,28 +3909,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2063239630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2063239625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 629f677f548bf1c4395cf06318833e4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  injuriedAudioClip: {fileID: 0}
-  audioPlayer: {fileID: 0}
-  injuriedParticleSystem: {fileID: 1581210467270047013, guid: 35ca59b72e254ce4aad095e5afae9882, type: 3}
-  player: {fileID: 0}
-  rushVelocity: 500
-  stopAttackingSeconds: 5
-  waitForRushSeconds: 1.5
-  emitParticleSeconds: 1
-  rangeOfSensor: 500
-  rangeOfAttack: 20
-  maxHp: 10
-  destroyingSeconds: 0
-  playerTag: Player
