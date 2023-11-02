@@ -57,7 +57,7 @@ public class PlayerControl : MonoBehaviour
             {
                 jumpControl();
             }
-            if (Input.GetMouseButton(0) && !animator.IsInTransition(0))
+            if (Input.GetKey(KeyCode.J) && !animator.IsInTransition(0))
             {
                 animator.SetBool("Attack", true);
             }
@@ -76,7 +76,7 @@ public class PlayerControl : MonoBehaviour
         // Idle state
         else if (state.fullPathHash == idle_state)
         {
-            if (Input.GetMouseButton(0) && !animator.IsInTransition(0))
+            if (Input.GetKey(KeyCode.J) && !animator.IsInTransition(0))
             {
                 animator.SetBool("Attack", true);
             }
