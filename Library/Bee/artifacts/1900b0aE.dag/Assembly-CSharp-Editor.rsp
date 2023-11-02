@@ -371,10 +371,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Chen_ImportAssets/Dinner table/Editor/ImageEffects/AntialiasingEditor.cs"
-"Assets/Chen_ImportAssets/Dinner table/Editor/ImageEffects/BloomAndFlaresEditor.cs"
-"Assets/Chen_ImportAssets/Dinner table/Editor/ImageEffects/BloomEditor.cs"
-"Assets/Su_ImportAssets/UnityTechnologies/ParticlePack/Shared/Ramps/Editor/RampAssetEditor.cs"
+"Assets/MemberAssets/Chen_ImportAssets/Dinner table/Editor/ImageEffects/AntialiasingEditor.cs"
+"Assets/MemberAssets/Chen_ImportAssets/Dinner table/Editor/ImageEffects/BloomAndFlaresEditor.cs"
+"Assets/MemberAssets/Chen_ImportAssets/Dinner table/Editor/ImageEffects/BloomEditor.cs"
+"Assets/MemberAssets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Editor/CreateLocatorHere.cs"
+"Assets/MemberAssets/Su_ImportAssets/UnityTechnologies/ParticlePack/Shared/Ramps/Editor/RampAssetEditor.cs"
 -langversion:9.0
 
 /deterministic
