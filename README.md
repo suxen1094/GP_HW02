@@ -7,4 +7,4 @@ WSAD: Move
 
 Space: Jump
 
-Left mouse: AttacK
+J: AttacK
