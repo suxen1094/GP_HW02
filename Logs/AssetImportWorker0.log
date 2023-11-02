@@ -1,0 +1,341 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 16125 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\software\UNITY\Unity 2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/黃啓恆/GP_HW02
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51815
+Successfully changed project path to: C:/Users/黃啓恆/GP_HW02
+C:/Users/黃啓恆/GP_HW02
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 82.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path D:/software/UNITY/Unity 2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/黃啓恆/GP_HW02/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'D:/software/UNITY/Unity 2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/software/UNITY/Unity 2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/software/UNITY/Unity 2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/software/UNITY/Unity 2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.030163 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 74.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.022 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2023ms)
+		BeginReloadAssembly (1525ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (380ms)
+			LoadAssemblies (1525ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003819 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\黃啓恆\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\黃啓恆\GP_HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Domain Reload Profiling:
+	ReloadAssembly (963ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (779ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Failed to load shader (instanceID 548, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Failed to load shader (instanceID 550, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3803 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (1.3 MB). Loaded Objects now: 4272.
+Memory consumption went from 169.9 MB to 168.5 MB.
+Total: 7.907600 ms (FindLiveObjects: 0.836700 ms CreateObjectMapping: 0.597200 ms MarkObjects: 5.972200 ms  DeleteObjects: 0.496700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 564582.959075 seconds.
+  path: Assets/Huang_Assets/Material/New Material.mat
+  artifactKey: Guid(ba8d51627befe5d4a934c0755a38f9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Material/New Material.mat using Guid(ba8d51627befe5d4a934c0755a38f9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ed303506ea24f7ac9229782c04b638') in 1.306594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Doorway 001/Secondary Stone.mat
+  artifactKey: Guid(0a29b9597c7b8c14cb3278e7d211050d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Doorway 001/Secondary Stone.mat using Guid(0a29b9597c7b8c14cb3278e7d211050d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489c300b3ea5c5a06fd5c2875d0b085b') in 0.077900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Chen_ImportAssets/Spiders/Materials/SandSpider.mat
+  artifactKey: Guid(5ac51c7de07714d4ab6e74dc98bf9525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chen_ImportAssets/Spiders/Materials/SandSpider.mat using Guid(5ac51c7de07714d4ab6e74dc98bf9525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fa6a5723ad879ab151b9d6f29fa680') in 0.079056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Book 009/Pages 009.mat
+  artifactKey: Guid(78963663c5572064bb075d561908100b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Book 009/Pages 009.mat using Guid(78963663c5572064bb075d561908100b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab5aab559c82f3916b903644517f397') in 0.014481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Book 005/Pages 005.mat
+  artifactKey: Guid(1c3c21480f8b9f14ea3c8b86b044e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Book 005/Pages 005.mat using Guid(1c3c21480f8b9f14ea3c8b86b044e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56ade9e14a1220aafddb08eb1dcfce8') in 0.019273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Book 006/Pages 006.mat
+  artifactKey: Guid(245c4e5b1e10fca42bf2e89d47d18f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Book 006/Pages 006.mat using Guid(245c4e5b1e10fca42bf2e89d47d18f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44038090ec5d7f3c5e5d61101bf578cd') in 0.021845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Chen_ImportAssets/Polygonal Metalon/Materials/Polygonal Metalon Purple.mat
+  artifactKey: Guid(343efc4e4daa6884fb114514185426c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chen_ImportAssets/Polygonal Metalon/Materials/Polygonal Metalon Purple.mat using Guid(343efc4e4daa6884fb114514185426c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d633c707aba2c2587f6463041fe19c') in 0.031053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Mesh Containers/ModularDungeonSeperatedMaterials.fbx
+  artifactKey: Guid(a59f6548c14dfa84ba2ca07e21ce1543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Mesh Containers/ModularDungeonSeperatedMaterials.fbx using Guid(a59f6548c14dfa84ba2ca07e21ce1543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768d07428c4cc03c4077c99a1b78a9d3') in 3.256146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Doorway Gated 001/Stone.mat
+  artifactKey: Guid(4d1b38bb9ff22d441bfe306ea77989dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Doorway Gated 001/Stone.mat using Guid(4d1b38bb9ff22d441bfe306ea77989dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beaffb522d6884c52b75c17778b7c051') in 0.047247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Pillar 001/Secondary Stone.mat
+  artifactKey: Guid(167064e372ccb374cb7bb65bb7595071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Pillar 001/Secondary Stone.mat using Guid(167064e372ccb374cb7bb65bb7595071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df48943bfca3187a4b404b848d8f1174') in 0.038499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Mesh Containers/LargePodium.fbx
+  artifactKey: Guid(f8edd3e722d3b3048ae74420cc53d3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Mesh Containers/LargePodium.fbx using Guid(f8edd3e722d3b3048ae74420cc53d3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0412c42a9f2030047bff323a74d168c6') in 0.246992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Podium Large 001/Secondary Stone.mat
+  artifactKey: Guid(5a604bafd35383b48ba5014f71a2b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Podium Large 001/Secondary Stone.mat using Guid(5a604bafd35383b48ba5014f71a2b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efd688813f742063727a959a4e7912b') in 0.117980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Pillar 002/Stone.mat
+  artifactKey: Guid(6f3ff3c9e11aad44cb05912696dc19a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Pillar 002/Stone.mat using Guid(6f3ff3c9e11aad44cb05912696dc19a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9306697ec330a0868130f92ba01f396b') in 0.045734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Art/Materials/skin1.mat
+  artifactKey: Guid(ca131910d5c9a634dbdd38e77111033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Art/Materials/skin1.mat using Guid(ca131910d5c9a634dbdd38e77111033f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bbaa3862d92b09a95f8fd8f1888993') in 0.068196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Torch 002/Wood.mat
+  artifactKey: Guid(bc1e0709b476bc44780316731820ff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Torch 002/Wood.mat using Guid(bc1e0709b476bc44780316731820ff95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c7df3bba5b24e84c860d645d8456e8') in 0.051592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Huang_Assets/Real Stars Skybox/StarSkybox04/StarSkybox04.mat
+  artifactKey: Guid(2d056ac30ecc9e542b26e06133f23602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Real Stars Skybox/StarSkybox04/StarSkybox04.mat using Guid(2d056ac30ecc9e542b26e06133f23602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e24a5e16d682dc27157d71c2524188') in 0.068845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Wall 002/Stone.mat
+  artifactKey: Guid(2b3b1dc31cd8f0449ad5b12df2e1c7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Wall 002/Stone.mat using Guid(2b3b1dc31cd8f0449ad5b12df2e1c7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bd65be0e2408357f32c17924ec70b1') in 0.041399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Materials/skin1.mat
+  artifactKey: Guid(4b91d906c72fd4447bfabbdd767e31ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Materials/skin1.mat using Guid(4b91d906c72fd4447bfabbdd767e31ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c014a4c072484fd360baf3f5d83c0d') in 0.053353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Chen_ImportAssets/Dinner table/Materials/Tablecloth.mat
+  artifactKey: Guid(0e11888631adf6d46b8c725c6ade9309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chen_ImportAssets/Dinner table/Materials/Tablecloth.mat using Guid(0e11888631adf6d46b8c725c6ade9309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a888db367e269603220e1d0b1a806cd') in 0.197793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Huang_Assets/RPG Pack/Materials/Stars_particles.mat
+  artifactKey: Guid(f47e41e4ec1f46641a912dd7f8b381d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/RPG Pack/Materials/Stars_particles.mat using Guid(f47e41e4ec1f46641a912dd7f8b381d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66616db629c768e8cd482d9a09d5c319') in 0.100712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Doorway 003/Stone.mat
+  artifactKey: Guid(2226b6bcf1f9bf648ab60b5d37dc56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Doorway 003/Stone.mat using Guid(2226b6bcf1f9bf648ab60b5d37dc56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acfd8ec5bded07b5825bfe8650d9400') in 0.048023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Candelabra 001/Wax.mat
+  artifactKey: Guid(404b754bdbe839647b1d80d64f21e049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Candelabra 001/Wax.mat using Guid(404b754bdbe839647b1d80d64f21e049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225cf317b7613e7978bf287dbb730118') in 0.070544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Huang_Assets/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named.mat
+  artifactKey: Guid(50e26aed28714894cb49da25901379b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Real Stars Skybox/StarSkybox04Named/StarSkybox04Named.mat using Guid(50e26aed28714894cb49da25901379b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542704243177fe20eb60cda65b4c573b') in 0.105976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Torch 001/Wood.mat
+  artifactKey: Guid(8cd4a23492b10dd449d017c9d75d0810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Torch 001/Wood.mat using Guid(8cd4a23492b10dd449d017c9d75d0810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6679ecec294209478cea9b7cbd4468') in 0.048126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Chen_ImportAssets/Dinner table/Materials/Table.mat
+  artifactKey: Guid(531afd0403dc15a449604ebb64cd5b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chen_ImportAssets/Dinner table/Materials/Table.mat using Guid(531afd0403dc15a449604ebb64cd5b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac05e4b9f8d60051c1d2ae5f6ae0826') in 0.078264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Art/Stage/Materials/unitychan_tile3.mat
+  artifactKey: Guid(00343d49c7d05416cb4a5bddf12aa90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/Art/Stage/Materials/unitychan_tile3.mat using Guid(00343d49c7d05416cb4a5bddf12aa90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14377cbf941b60d31027ac974e1a5597') in 0.225190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Lava Grate 001/Stone.mat
+  artifactKey: Guid(4cd6c0b8e54976f47b0208b96cd768a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Lava Grate 001/Stone.mat using Guid(4cd6c0b8e54976f47b0208b96cd768a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb8d56793bc5fb088419773f73bfe25') in 0.065591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Wall 003/Stone.mat
+  artifactKey: Guid(424f108c2e1ef074aa68c7bce8440d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Wall 003/Stone.mat using Guid(424f108c2e1ef074aa68c7bce8440d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b63d7e2fcc9d9904b558fb89d59dba5') in 0.043548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Podium Large 001/Stone.mat
+  artifactKey: Guid(3fc45ea75971bfe43a42d31736e24ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Huang_Assets/Simple Modular Dungeon/Components/Materials/Podium Large 001/Stone.mat using Guid(3fc45ea75971bfe43a42d31736e24ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216b48a5e3eec5142a5b1fcb33af5a71') in 0.044267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Chen_ImportAssets/Spiders/Models/Spider.fbx
+  artifactKey: Guid(c702044e8b7b7de4d96c5af2d585d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chen_ImportAssets/Spiders/Models/Spider.fbx using Guid(c702044e8b7b7de4d96c5af2d585d4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d524a334307db9fe5bd37850182e2d') in 0.265522 seconds 
