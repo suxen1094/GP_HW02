@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
-
 public class PlayerControl : MonoBehaviour
 {
     public GameObject player;

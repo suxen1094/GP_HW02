@@ -396,7 +396,13 @@
 "Assets/Scripts/spiderMonster.cs"
 "Assets/Scripts/Su/HPHandler.cs"
 "Assets/Scripts/Su/PlayerControl.cs"
+"Assets/Scripts/Su/ThrowFireball.cs"
 "Assets/Su_ImportAssets/unity-chan!/Unity-chan! Model/SplashScreen/Scripts/SplashScreen.cs"
+"Assets/Su_ImportAssets/UnityTechnologies/ParticlePack/Shared/Ramps/Runtime/RampAsset.cs"
+"Assets/Su_ImportAssets/UnityTechnologies/ParticlePack/Shared/Scripts/AdjustTimeScale.cs"
+"Assets/Su_ImportAssets/UnityTechnologies/ParticlePack/Shared/Scripts/ProximityActivate.cs"
+"Assets/Su_ImportAssets/UnityTechnologies/ParticlePack/Shared/Scripts/SimpleCameraController.cs"
+"Assets/Su_ImportAssets/UnityTechnologies/ParticlePack/Shared/Scripts/SimpleCharacterMotor.cs"
 -langversion:9.0
 
 /deterministic

@@ -374,6 +374,7 @@
 "Assets/Chen_ImportAssets/Dinner table/Editor/ImageEffects/AntialiasingEditor.cs"
 "Assets/Chen_ImportAssets/Dinner table/Editor/ImageEffects/BloomAndFlaresEditor.cs"
 "Assets/Chen_ImportAssets/Dinner table/Editor/ImageEffects/BloomEditor.cs"
+"Assets/Su_ImportAssets/UnityTechnologies/ParticlePack/Shared/Ramps/Editor/RampAssetEditor.cs"
 -langversion:9.0
 
 /deterministic

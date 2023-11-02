@@ -62,6 +62,7 @@
     <Analyzer Include="C:\Users\蘇志翔\.vscode\extensions\visualstudiotoolsforunity.vstuc-0.9.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Su_ImportAssets\UnityTechnologies\ParticlePack\Shared\Ramps\Editor\RampAssetEditor.cs" />
     <Compile Include="Assets\Chen_ImportAssets\Dinner table\Editor\ImageEffects\BloomEditor.cs" />
     <Compile Include="Assets\Chen_ImportAssets\Dinner table\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
     <Compile Include="Assets\Chen_ImportAssets\Dinner table\Editor\ImageEffects\AntialiasingEditor.cs" />
