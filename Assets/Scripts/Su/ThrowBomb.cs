@@ -15,7 +15,7 @@ public class ThrowBomb : MonoBehaviour
     private int locomotion_state;
     private int jump_state;
     private int attack_state;
-    public float FireballSpeed = 200;
+    public float FireballSpeed = 1000;
     // Start is called before the first frame update
     void Start()
     {

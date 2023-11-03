@@ -123,7 +123,7 @@
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
-    <Compile Include="Assets\Scripts\Su\StatusHandle.cs" />
+    <Compile Include="Assets\Scripts\Su\PlayerStatusHandle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />

@@ -8,6 +8,7 @@ TagManager:
   - Monster
   - StartPoint
   - EndPoint
+  - Audio
   layers:
   - Default
   - TransparentFX
