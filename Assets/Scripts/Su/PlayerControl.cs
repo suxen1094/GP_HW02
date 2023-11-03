@@ -118,7 +118,6 @@ public class PlayerControl : MonoBehaviour
     void jumpControl()
     {
         animator.SetBool("Jump", true);
-        animator.SetFloat("JumpHeight", jump_power);
         rb.AddForce(Vector3.up * jump_power, ForceMode.VelocityChange);
         this.adjustCollider();
     }
