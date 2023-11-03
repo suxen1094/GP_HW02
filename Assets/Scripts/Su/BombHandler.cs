@@ -21,7 +21,7 @@ public class BombHandler : MonoBehaviour
 
     void OnCollisionEnter(Collision collisionObject)
     {
-        if (collisionObject.gameObject.tag == "monster"){
+        if (collisionObject.gameObject.tag == "Monster"){
             prefab = Instantiate(explosion, gameObject.transform.position, Quaternion.identity);
             Destroy(gameObject);
             Destroy(prefab, 1);

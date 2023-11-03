@@ -65,15 +65,21 @@
     <Compile Include="Assets\Scripts\Su\HPHandler.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\FlashlightControl.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
     <Compile Include="Assets\MemberAssets\Su_ImportAssets\UnityTechnologies\ParticlePack\Shared\Scripts\ProximityActivate.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\ZombieDisappear.cs" />
     <Compile Include="Assets\Scripts\Su\PlayerControl.cs" />
+    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Su\ThrowBomb.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
@@ -81,29 +87,42 @@
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+    <Compile Include="Assets\Scripts\Su\BombHandler.cs" />
     <Compile Include="Assets\MemberAssets\Su_ImportAssets\UnityTechnologies\ParticlePack\Shared\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
     <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
     <Compile Include="Assets\Scripts\spiderMonster.cs" />
+    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\PlayerMovement.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\Fireball.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
     <Compile Include="Assets\MemberAssets\Su_ImportAssets\UnityTechnologies\ParticlePack\Shared\Scripts\SimpleCharacterMotor.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\CameraFollow.cs" />
+    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\TankAttack.cs" />
     <Compile Include="Assets\Scripts\Huang_Scripts\GameController.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
+    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
+    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\MemberAssets\Su_ImportAssets\UnityTechnologies\ParticlePack\Shared\Scripts\AdjustTimeScale.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
     <Compile Include="Assets\Scripts\Huang_Scripts\controller.cs" />
+    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
@@ -114,25 +133,6 @@
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
-    <Compile Include="Assets\Scripts\Su\BombHandler.cs" />
-    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs" />
-    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\Fireball.cs" />
-    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\ZombieDisappear.cs" />
-    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
-    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs" />
-    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
-    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\CameraFollow.cs" />
-    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs" />
-    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
-    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs" />
-    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
-    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs" />
-    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs" />
-    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\HealthBar.cs" />
-    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\FlashlightControl.cs" />
-    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\TankAttack.cs" />
-    <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
-    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
@@ -1122,6 +1122,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
@@ -1162,6 +1166,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
       <Private>False</Private>
@@ -1184,14 +1192,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

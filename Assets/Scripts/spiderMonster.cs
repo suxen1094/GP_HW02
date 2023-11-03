@@ -27,7 +27,7 @@ public class spiderMonster : MonoBehaviour
     private int runningState;
     private float hp;
     private bool isAttacking = false;
-    private bool isStopAttacking = false;
+    public bool isStopAttacking = false;
 
     // Start is called before the first frame update
     void Start()
