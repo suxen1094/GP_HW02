@@ -96,6 +96,7 @@
     <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
     <Compile Include="Assets\Scripts\spiderMonster.cs" />
+    <Compile Include="Assets\Scripts\Su\SceneControl.cs" />
     <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
@@ -133,6 +134,7 @@
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+    <Compile Include="Assets\Scripts\Su\StatusHandle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />

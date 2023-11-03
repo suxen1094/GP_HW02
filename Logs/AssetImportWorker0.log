@@ -15,7 +15,7 @@ D:/02 Tools/UnityProjects/HW02
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63253
+50122
 Successfully changed project path to: D:/02 Tools/UnityProjects/HW02
 D:/02 Tools/UnityProjects/HW02
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/02 Tools/UnityProjects/HW02
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 69.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path D:/02 Tools/Unity/UnityEditor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'D:/02 Tools/Unity/UnityEditor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/02 Tools/Unity/UnityEditor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/02 Tools/Unity/UnityEditor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/02 Tools/Unity/UnityEditor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002164 seconds.
+Registered in 0.001500 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 81.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.622 seconds
+- Completed reload, in  0.469 seconds
 Domain Reload Profiling:
-	ReloadAssembly (623ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (469ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (475ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (349ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (124ms)
+			SetupTypeCache (71ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (279ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (210ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
+				RefreshPlugins (81ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (135ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004971 seconds.
+Registered in 0.002498 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\02 Tools\UnityProjects\HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\02 Tools\UnityProjects\HW02\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.952 seconds
+- Completed reload, in  0.722 seconds
 Domain Reload Profiling:
-	ReloadAssembly (953ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (723ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (785ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (570ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (215ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (404ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (266ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (305ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3845 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3846 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 50 unused Assets / (1.4 MB). Loaded Objects now: 4319.
 Memory consumption went from 262.8 MB to 261.4 MB.
-Total: 4.434800 ms (FindLiveObjects: 0.319800 ms CreateObjectMapping: 0.321400 ms MarkObjects: 3.361400 ms  DeleteObjects: 0.430500 ms)
+Total: 2.764900 ms (FindLiveObjects: 0.219100 ms CreateObjectMapping: 0.106800 ms MarkObjects: 2.175500 ms  DeleteObjects: 0.262500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,7 +159,113 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 23721.112971 seconds.
-  path: Assets/Scenes/battleScene/NavMesh.asset
-  artifactKey: Guid(86db66f01745ed349b2a680cccc5e9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/battleScene/NavMesh.asset using Guid(86db66f01745ed349b2a680cccc5e9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648b463cd8928bcbfbba0fb810fdea60') in 0.046420 seconds 
+  Time since last request: 29638.815315 seconds.
+  path: Assets/Scenes/Chen_BattleScene.unity
+  artifactKey: Guid(7925055a817798e41aad9dda33ebc779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chen_BattleScene.unity using Guid(7925055a817798e41aad9dda33ebc779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4017c77e94c87b79ee1c755ad8890c1c') in 0.006072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 629.679262 seconds.
+  path: Assets/laxer Assets/Terrain Shader
+  artifactKey: Guid(bfb0a4d9f3d3741509c14cd99390650b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader using Guid(bfb0a4d9f3d3741509c14cd99390650b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1741117ac655eadd1b4d10274221cab7') in 0.003003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.037333 seconds.
+  path: Assets/laxer Assets/Terrain Shader/Models/Materials/None__giant_rock_normals.mat
+  artifactKey: Guid(480368a0c55754148a62a189b45ce138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader/Models/Materials/None__giant_rock_normals.mat using Guid(480368a0c55754148a62a189b45ce138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f216a2f3fc3916043bf91561573650') in 0.290305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.905260 seconds.
+  path: Assets/laxer Assets/Terrain Shader/Models/Tree 3_Textures/diffuse.png
+  artifactKey: Guid(4c406809f0e94b34a925d2e560ddb1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader/Models/Tree 3_Textures/diffuse.png using Guid(4c406809f0e94b34a925d2e560ddb1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89c33a41a516f57e858f6eb97e7aa35') in 0.048802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/laxer Assets/Terrain Shader/Models/Tree 3_Textures/translucency_gloss.png
+  artifactKey: Guid(4fffdabf1c95d4b44a5784955a0fe307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader/Models/Tree 3_Textures/translucency_gloss.png using Guid(4fffdabf1c95d4b44a5784955a0fe307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f19dc828b8b8b5afbbe662c85f2f3bc') in 0.018535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/laxer Assets/Terrain Shader/Models/Tree 3_Textures/shadow.png
+  artifactKey: Guid(46f5616f0961d694e830b1e3ef2185e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader/Models/Tree 3_Textures/shadow.png using Guid(46f5616f0961d694e830b1e3ef2185e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b336b681ab7f8bf743764c2d74e2ee8') in 0.019961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.120800 seconds.
+  path: Assets/laxer Assets/Terrain Shader/Materials/laxer terrain Bumped.mat
+  artifactKey: Guid(8aedd9e841f7f534ab4a6e462c2f4541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader/Materials/laxer terrain Bumped.mat using Guid(8aedd9e841f7f534ab4a6e462c2f4541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df209c6486ad952af7486eb4995f0a1a') in 0.123136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.229681 seconds.
+  path: Assets/laxer Assets/Terrain Shader/Materials/tanne rinde 1.mat
+  artifactKey: Guid(72c3407d0e6cbe24b849fe76fc4b8f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader/Materials/tanne rinde 1.mat using Guid(72c3407d0e6cbe24b849fe76fc4b8f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f3284b599d1e43762b5d54f65f5a8c') in 0.212098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.013127 seconds.
+  path: Assets/laxer Assets/Terrain Shader/AddOn2/laxer terrain 4x smooth.mat
+  artifactKey: Guid(ffd7abcc4a8d3204b8f42302f52abf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader/AddOn2/laxer terrain 4x smooth.mat using Guid(ffd7abcc4a8d3204b8f42302f52abf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c1eefb34fa984d3a0f60cc60a4d26e') in 0.101057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.567943 seconds.
+  path: Assets/laxer Assets/Terrain Shader/AddOn1/multi noise.png
+  artifactKey: Guid(1f925947d3065a54498360c1ac270c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader/AddOn1/multi noise.png using Guid(1f925947d3065a54498360c1ac270c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86891727c6cd91b82d60fc6e8d8f9382') in 0.013660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/laxer Assets/Terrain Shader/AddOn1/smudge noise b.png
+  artifactKey: Guid(5f1af1941bc1c6f4997887b3efd88123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader/AddOn1/smudge noise b.png using Guid(5f1af1941bc1c6f4997887b3efd88123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd10d0384dba6ccf6a2b940b0f7d5018') in 0.013205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.861322 seconds.
+  path: Assets/laxer Assets/Terrain Shader/Textures/grass height.png
+  artifactKey: Guid(94a77f96a0dd24b448bc60b30307a79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader/Textures/grass height.png using Guid(94a77f96a0dd24b448bc60b30307a79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503ef2a0a1057a76b7aa2890ac0e8f34') in 0.010881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.331799 seconds.
+  path: Assets/laxer Assets/Terrain Shader/Textures/mauer 1 height.png
+  artifactKey: Guid(6e4b8640b038542449646a0f33cd80a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader/Textures/mauer 1 height.png using Guid(6e4b8640b038542449646a0f33cd80a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928806225336ca2cdccaa97bb350067e') in 0.026676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/laxer Assets/Terrain Shader/Textures/no gloss.png
+  artifactKey: Guid(b78ca238e73386c4391d6bc11b403148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader/Textures/no gloss.png using Guid(b78ca238e73386c4391d6bc11b403148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a696d2a0e7e6f8695fd0e5b407aa61f1') in 0.027741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/laxer Assets/Terrain Shader/Textures/stone specular.png
+  artifactKey: Guid(09e64faa2449c43488951c8c0ca77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader/Textures/stone specular.png using Guid(09e64faa2449c43488951c8c0ca77a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564ae9150226575b9622d2e7e1cd4f37') in 0.024896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/laxer Assets/Terrain Shader/Textures/stone height.png
+  artifactKey: Guid(7ea6608a04ee9a64a899acbe2fc709e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/laxer Assets/Terrain Shader/Textures/stone height.png using Guid(7ea6608a04ee9a64a899acbe2fc709e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c43a596faab5a41fdf78f1cdbd5ab9') in 0.017403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.543981 seconds.
+  path: Assets/MemberAssets/Su_ImportAssets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Healing circle.prefab
+  artifactKey: Guid(12a56ee4630040c4eb17ae9707ed4cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MemberAssets/Su_ImportAssets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Healing circle.prefab using Guid(12a56ee4630040c4eb17ae9707ed4cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a7622fbcc4d6f60ee6c4dab2dcf65c') in 0.110064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.235764 seconds.
+  path: Assets/MemberAssets/Su_ImportAssets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal green.prefab
+  artifactKey: Guid(13c990b8270c70b4c9f196019286028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MemberAssets/Su_ImportAssets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal green.prefab using Guid(13c990b8270c70b4c9f196019286028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e00f5447dfd154fb980c0fa33e43e0') in 0.052383 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

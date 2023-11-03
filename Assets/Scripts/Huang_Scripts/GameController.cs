@@ -7,9 +7,10 @@ public class GameController : MonoBehaviour
     GameObject Player;
     public List<GameObject> Enemies = new List<GameObject>();
     private List<UnityEngine.AI.NavMeshAgent> enemiesNaviAgent = new List<UnityEngine.AI.NavMeshAgent>();
+    public bool IsTracking = true;
     void Start()
     {
-        Player = GameObject.Find("Player");
+        Player = GameObject.FindWithTag("Player");
         foreach (GameObject enemy in Enemies)
         {
             UnityEngine.AI.NavMeshAgent navi = enemy.GetComponent<UnityEngine.AI.NavMeshAgent>();
@@ -27,7 +28,10 @@ public class GameController : MonoBehaviour
         {
             if (Player != null)
             {
-                navi.SetDestination(Player.transform.position);
+                if (IsTracking)
+                {
+                    navi.SetDestination(Player.transform.position);
+                }
             }
         }
     }
