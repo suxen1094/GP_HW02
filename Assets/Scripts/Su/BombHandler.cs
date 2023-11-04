@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class BombHandler : MonoBehaviour
 {
+    private PlayerStatusHandle playerStatusHandle;
     public GameObject explosion;
     private GameObject prefab;
     private AudioSource audioSource;
     public AudioClip explosionSound;
-
+    bool first = true;
     // Start is called before the first frame update
     void Awake()
     {
+        playerStatusHandle = GameObject.Find("GameStatus").GetComponent<PlayerStatusHandle>();
         audioSource = GameObject.FindObjectOfType<AudioSource>();
     }
     void Start()
@@ -33,6 +35,8 @@ public class BombHandler : MonoBehaviour
             Destroy(collisionObject.gameObject);
             Destroy(gameObject); // Destroy bombs
             Destroy(prefab, 1);  // Destroy explosion
+            if(first) playerStatusHandle.score += 5;
+            first = false;
         }
     }
 }
