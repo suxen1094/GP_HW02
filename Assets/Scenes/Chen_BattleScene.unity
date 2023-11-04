@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.26656044, g: 0.2465223, b: 0.19083714, a: 1}
+  m_IndirectSpecularColor: {r: 0.2665604, g: 0.2465223, b: 0.19083706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -466,7 +466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   injuriedAudioClip: {fileID: 8300000, guid: 88b1cbe3caa3fee4b8b103b5edd7aba9, type: 3}
-  audioPlayer: {fileID: 0}
+  audioPlayer: {fileID: 4199403791749042497}
   injuriedParticleSystem: {fileID: 1581210467270047013, guid: 35ca59b72e254ce4aad095e5afae9882, type: 3}
   player: {fileID: 720946466}
   rushVelocity: 150
@@ -908,7 +908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   injuriedAudioClip: {fileID: 8300000, guid: 88b1cbe3caa3fee4b8b103b5edd7aba9, type: 3}
-  audioPlayer: {fileID: 0}
+  audioPlayer: {fileID: 4199403791749042497}
   injuriedParticleSystem: {fileID: 1581210467270047013, guid: 35ca59b72e254ce4aad095e5afae9882, type: 3}
   player: {fileID: 720946466}
   rushVelocity: 150
@@ -1171,7 +1171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   injuriedAudioClip: {fileID: 8300000, guid: 88b1cbe3caa3fee4b8b103b5edd7aba9, type: 3}
-  audioPlayer: {fileID: 0}
+  audioPlayer: {fileID: 4199403791749042497}
   injuriedParticleSystem: {fileID: 1581210467270047013, guid: 35ca59b72e254ce4aad095e5afae9882, type: 3}
   player: {fileID: 720946466}
   rushVelocity: 150
@@ -1743,27 +1743,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_LocalScale.z
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 457
+      value: 1031
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.18902054
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 241
+      value: 428
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1970,7 +1970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   injuriedAudioClip: {fileID: 8300000, guid: 88b1cbe3caa3fee4b8b103b5edd7aba9, type: 3}
-  audioPlayer: {fileID: 0}
+  audioPlayer: {fileID: 4199403791749042497}
   injuriedParticleSystem: {fileID: 1581210467270047013, guid: 35ca59b72e254ce4aad095e5afae9882, type: 3}
   player: {fileID: 720946466}
   rushVelocity: 150
@@ -2696,27 +2696,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_LocalScale.z
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 457
+      value: 904
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.18902054
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 706
+      value: 1367
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: abd8793c07e515e468d9fbd1d76d2c61, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3450,7 +3450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   injuriedAudioClip: {fileID: 8300000, guid: 88b1cbe3caa3fee4b8b103b5edd7aba9, type: 3}
-  audioPlayer: {fileID: 0}
+  audioPlayer: {fileID: 4199403791749042497}
   injuriedParticleSystem: {fileID: 1581210467270047013, guid: 35ca59b72e254ce4aad095e5afae9882, type: 3}
   player: {fileID: 720946466}
   rushVelocity: 150
@@ -3525,6 +3525,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 664ae079aac5e7d44a13815eead0910e, type: 3}
+--- !u!82 &4199403791749042497 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2129127797162077481, guid: 664ae079aac5e7d44a13815eead0910e, type: 3}
+  m_PrefabInstance: {fileID: 4199403791749042496}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5544094206454514711
 PrefabInstance:
   m_ObjectHideFlags: 0
