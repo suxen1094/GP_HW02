@@ -3508,7 +3508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hand: {fileID: 6950071521511761940}
   bomb: {fileID: 54881357279131018, guid: 23f52cd0be26cdf49a3b895769844d6a, type: 3}
-  FireballSpeed: 500
+  FireballSpeed: 2000
 --- !u!114 &5446323005336713474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4683,7 +4683,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5015082686689262309}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.3999995, z: -2}
+  m_LocalPosition: {x: -0.00000023841864, y: 1.4, z: -2.0000002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6438,7 +6438,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4690312555797905973}
   - component: {fileID: 6965264574719722454}
-  - component: {fileID: 6744049640140992199}
   - component: {fileID: 2308139050524498264}
   m_Layer: 0
   m_Name: Camera
@@ -6455,7 +6454,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7257898007522021190}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.3999995, z: -2}
+  m_LocalPosition: {x: -0.00000023841864, y: 1.3999999, z: -2.0000002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6505,14 +6504,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &6744049640140992199
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7257898007522021190}
-  m_Enabled: 1
 --- !u!114 &2308139050524498264
 MonoBehaviour:
   m_ObjectHideFlags: 0
