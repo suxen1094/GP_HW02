@@ -46,13 +46,13 @@ public class PlayerStatusHandle : MonoBehaviour
 
     public void Win(){
         CloseStatusCanvas();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
         currentHP = 100;
     }
 
     public void Lose(){
         CloseStatusCanvas();
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
         currentHP = 100;
     }
 

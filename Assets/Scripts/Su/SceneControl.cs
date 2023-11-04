@@ -25,7 +25,7 @@ public class SceneControl : MonoBehaviour
                 int current_scene_idx = SceneManager.GetActiveScene().buildIndex;
 
                 // If current scene isn't the final stage -> Load the next stage
-                if (current_scene_idx <= 2)
+                if (current_scene_idx == 1 || current_scene_idx == 2)
                 {
                     SceneManager.LoadScene(current_scene_idx + 1);
                 }

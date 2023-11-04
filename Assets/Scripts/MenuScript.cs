@@ -11,8 +11,7 @@ public class MenuScript : MonoBehaviour
     }
     public void PlayGame()
     {
-       // SceneManager.LoadSceneAsync("PretendLevelOne");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
         playerStatusHandle.OpenStatusCanvas();
     }
 }

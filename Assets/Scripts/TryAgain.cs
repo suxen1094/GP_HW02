@@ -13,8 +13,7 @@ public class TryAgain : MonoBehaviour
     }
     public void PlayGame()
     {
-        //SceneManager.LoadSceneAsync("Menu");
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
         playerStatusHandle.OpenStatusCanvas();  
     }
 }

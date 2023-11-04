@@ -23,8 +23,9 @@ public class LifeControll : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Fall out of the map
-        if (player.transform.position.y < -20 && SceneManager.GetActiveScene().buildIndex != 3)
+        // Fall out of the map, only validate in game scene
+        if (player.transform.position.y < -20 && SceneManager.GetActiveScene().buildIndex != 4 
+            && SceneManager.GetActiveScene().buildIndex != 5)
         {
             playerStatusHandle.currentHP = -10;
         }
