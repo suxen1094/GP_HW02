@@ -705,6 +705,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 100004, guid: 7867af58a6ec48846ae807eb4022fbaa, type: 3}
     - target: {fileID: 7352336848050790063, guid: 664ae079aac5e7d44a13815eead0910e, type: 3}
+      propertyPath: healSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 29bde6326b4c34ad8a12da475f79b50a, type: 3}
+    - target: {fileID: 7352336848050790063, guid: 664ae079aac5e7d44a13815eead0910e, type: 3}
       propertyPath: explosionSound
       value: 
       objectReference: {fileID: 8300000, guid: f124de4a6049fe846b67dd096d8f24da, type: 3}

@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class PlayerStatusHandle : MonoBehaviour
 {
     public GameObject unitychan;
-    private float maxHP = 100;
+    public float maxHP = 100;
     public float currentHP;
     public int score;
     private float curtime, totaltime, lasttime;

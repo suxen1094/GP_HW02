@@ -21,6 +21,7 @@ public class PlayerControl : MonoBehaviour
     private int locomotion_state;
     private int jump_state;
     private int attack_state;
+    private int back_state;
     private bool attacking;
 
     // For the usage of collidar adjustment
@@ -38,6 +39,7 @@ public class PlayerControl : MonoBehaviour
         locomotion_state = Animator.StringToHash("Base Layer.Locomotion");
         jump_state = Animator.StringToHash("Base Layer.JUMP00");
         attack_state = Animator.StringToHash("Base Layer.ATK00");
+        back_state = Animator.StringToHash("Base Layer.WALK00_B");
 
         // Get collider data
         col = gameObject.GetComponent<CapsuleCollider>();
@@ -75,6 +77,14 @@ public class PlayerControl : MonoBehaviour
         }
         // Idle state
         else if (state.fullPathHash == idle_state)
+        {
+            if (Input.GetKey(KeyCode.J) && !animator.IsInTransition(0))
+            {
+                animator.SetBool("Attack", true);
+            }
+        }
+        // Walk back state
+        else if (state.fullPathHash == back_state)
         {
             if (Input.GetKey(KeyCode.J) && !animator.IsInTransition(0))
             {

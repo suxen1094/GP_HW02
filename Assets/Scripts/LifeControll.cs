@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class LifeControll : MonoBehaviour
 {
+    private GameObject player;
     private PlayerStatusHandle playerStatusHandle;
     public GameObject explosion;
     private GameObject prefab;
     private AudioSource audioSource;
     public AudioClip explosionSound;
+    public AudioClip healSound;
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindWithTag("Player");
         playerStatusHandle = GameObject.Find("GameStatus").GetComponent<PlayerStatusHandle>();
         audioSource = GameObject.FindObjectOfType<AudioSource>();
     }
@@ -19,7 +22,11 @@ public class LifeControll : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // Fall out of the map
+        if (player.transform.position.y < -20)
+        {
+            playerStatusHandle.currentHP = -10;
+        }
     }
     void OnCollisionEnter(Collision collisionObject)
     {
@@ -28,6 +35,24 @@ public class LifeControll : MonoBehaviour
             audioSource.PlayOneShot(explosionSound, 0.6f);
             Destroy(prefab, 1);  // Destroy explosion
             playerStatusHandle.currentHP -= 5;
+        }
+    }
+
+    void OnTriggerEnter(Collider colliderObject)
+    {
+        // Get healing item
+        if (colliderObject.gameObject.tag == "HealingItem")
+        {
+            audioSource.PlayOneShot(healSound, 0.6f);
+            Destroy(colliderObject.gameObject);
+            if (playerStatusHandle.maxHP - playerStatusHandle.currentHP < 20)
+            {
+                playerStatusHandle.currentHP = 100;
+            }
+            else
+            {
+                playerStatusHandle.currentHP += 10;
+            }
         }
     }
 }

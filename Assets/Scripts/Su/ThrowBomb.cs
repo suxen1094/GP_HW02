@@ -11,10 +11,7 @@ public class ThrowBomb : MonoBehaviour
     GameObject player;
     GameObject prefab;
     Animator animator;
-    private int idle_state;
-    private int locomotion_state;
-    private int jump_state;
-    private int attack_state;
+    private int idle_state, locomotion_state, back_state;
     public float FireballSpeed = 1000;
     // Start is called before the first frame update
     void Start()
@@ -24,15 +21,14 @@ public class ThrowBomb : MonoBehaviour
 
         idle_state = Animator.StringToHash("Base Layer.WAIT00");
         locomotion_state = Animator.StringToHash("Base Layer.Locomotion");
-        jump_state = Animator.StringToHash("Base Layer.JUMP00");
-        attack_state = Animator.StringToHash("Base Layer.ATK00");
+        back_state = Animator.StringToHash("Base Layer.WALK00_B");
     }
 
     void FixedUpdate()
     {
         AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
         // If current state is locomotion or idle
-        if (state.fullPathHash == locomotion_state || state.fullPathHash == idle_state)
+        if (state.fullPathHash == locomotion_state || state.fullPathHash == idle_state || state.fullPathHash == back_state)
         {
             // If clicking mouse left
             if (Input.GetKey(KeyCode.J) && !animator.IsInTransition(0))
