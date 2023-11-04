@@ -8,7 +8,7 @@ public class spiderMonster : MonoBehaviour
     public AudioClip injuriedAudioClip;
     public AudioSource audioPlayer;
     public GameObject injuriedParticleSystem;
-    public GameObject player;
+    private GameObject player;
     public float rushVelocity = 500.0f;
     public float stopAttackingSeconds = 5.0f;
     public float waitForRushSeconds = 1.5f;
@@ -32,6 +32,7 @@ public class spiderMonster : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.Find("unitychan");
         StartCoroutine(emitParticleForSeconds());
         naviAgent = this.GetComponent<NavMeshAgent>();
         animator = this.GetComponent<Animator>();

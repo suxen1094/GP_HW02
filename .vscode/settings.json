@@ -51,5 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "HW02.sln"
+    "dotnet.defaultSolution": "HW02.sln",
+    "dotnet.preferCSharpExtension": true
 }
