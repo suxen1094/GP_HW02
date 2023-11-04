@@ -9,6 +9,7 @@ TagManager:
   - StartPoint
   - EndPoint
   - Audio
+  - FireBall
   layers:
   - Default
   - TransparentFX

@@ -64,13 +64,17 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Su\HPHandler.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+    <Compile Include="Assets\MemberAssets\Chiang_Asset\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
     <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\FlashlightControl.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\MemberAssets\Chiang_Asset\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoRotate.cs" />
+    <Compile Include="Assets\Scripts\startPoint.cs" />
     <Compile Include="Assets\MemberAssets\Su_ImportAssets\UnityTechnologies\ParticlePack\Shared\Scripts\ProximityActivate.cs" />
+    <Compile Include="Assets\Scripts\LifeControll.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
     <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\ZombieDisappear.cs" />
@@ -90,6 +94,8 @@
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
     <Compile Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs" />
+    <Compile Include="Assets\Scripts\TryAgain.cs" />
+    <Compile Include="Assets\MemberAssets\Chiang_Asset\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
     <Compile Include="Assets\Scripts\spiderMonster.cs" />
     <Compile Include="Assets\Scripts\Su\SceneControl.cs" />
@@ -119,6 +125,7 @@
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
     <Compile Include="Assets\MemberAssets\LinWanChing\Menu\Script\MenuScript.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+    <Compile Include="Assets\MemberAssets\Chiang_Asset\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
     <Compile Include="Assets\Scripts\Huang_Scripts\AnimationController.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
@@ -133,13 +140,16 @@
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\MemberAssets\Chiang_Asset\JMO Assets\Cartoon FX (legacy)\Shaders\CFX3 Multiply Color.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
-    <None Include="Assets\laxer Assets\Terrain Shader\AddOn2\custom terrain Bump fade 4x smooth.shader" />
+    <None Include="Assets\MemberAssets\Hans_ImprotAssest\laxer Assets\Terrain Shader\AddOn2\custom terrain Bump fade 4x smooth.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
     <None Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+    <None Include="Assets\MemberAssets\Chiang_Asset\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_SETTINGS.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\MemberAssets\Chiang_Asset\JMO Assets\Cartoon FX (legacy)\CartoonFX Free.txt" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
@@ -149,6 +159,7 @@
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
     <None Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+    <None Include="Assets\MemberAssets\Chiang_Asset\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
@@ -165,7 +176,7 @@
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
-    <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendNormalx5.shader" />
+    <None Include="Assets\MemberAssets\Hans_ImprotAssest\laxer Assets\Terrain Shader\Shaders\HeightBlendNormalx5.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
     <None Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
     <None Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
@@ -178,17 +189,18 @@
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
-    <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendRGB.shader" />
+    <None Include="Assets\MemberAssets\Hans_ImprotAssest\laxer Assets\Terrain Shader\Shaders\HeightBlendRGB.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
-    <None Include="Assets\laxer Assets\Terrain Shader\AddOn1\4x UV_Mixing.shader" />
-    <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendSpecularx4.shader" />
+    <None Include="Assets\MemberAssets\Hans_ImprotAssest\laxer Assets\Terrain Shader\AddOn1\4x UV_Mixing.shader" />
+    <None Include="Assets\MemberAssets\Hans_ImprotAssest\laxer Assets\Terrain Shader\Shaders\HeightBlendSpecularx4.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\laxer Assets\Terrain Shader\Shaders\custom terrain Bump fade addpass.shader" />
+    <None Include="Assets\MemberAssets\Hans_ImprotAssest\laxer Assets\Terrain Shader\Shaders\custom terrain Bump fade addpass.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\laxer Assets\Terrain Shader\Shaders\HeightBlendx5.shader" />
+    <None Include="Assets\MemberAssets\Hans_ImprotAssest\laxer Assets\Terrain Shader\Shaders\HeightBlendx5.shader" />
+    <None Include="Assets\MemberAssets\Chiang_Asset\JMO Assets\Cartoon FX Remaster\Readme Cartoon FX Remaster FREE.txt" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
@@ -204,21 +216,23 @@
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
     <None Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Audio\Voice\unity-chan_voice_list.txt" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\MemberAssets\Chiang_Asset\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_PASSES.cginc" />
     <None Include="Assets\MemberAssets\Hans_ImprotAssest\Crusader tank\Materials\material shader\Standard_Two_Sided .shader" />
     <None Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\laxer Assets\Terrain Shader\Shaders\custom terrain fade addpass.shader" />
+    <None Include="Assets\MemberAssets\Hans_ImprotAssest\laxer Assets\Terrain Shader\Shaders\custom terrain fade addpass.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
     <None Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\MemberAssets\Chiang_Asset\JMO Assets\Cartoon FX (legacy)\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\laxer Assets\Terrain Shader\Shaders\custom terrain Diffuse fade.shader" />
+    <None Include="Assets\MemberAssets\Hans_ImprotAssest\laxer Assets\Terrain Shader\Shaders\custom terrain Diffuse fade.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
     <None Include="Assets\MemberAssets\Hans_ImprotAssest\Hovl Studio\Procedural fire\Shaders\FireSphere.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
@@ -228,6 +242,7 @@
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
     <None Include="Assets\MemberAssets\Hans_ImprotAssest\CastlePack\Prefabs\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\MemberAssets\Chiang_Asset\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR_URP.cginc" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
@@ -235,7 +250,7 @@
     <None Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
-    <None Include="Assets\laxer Assets\Terrain Shader\Shaders\custom terrain Bump fade.shader" />
+    <None Include="Assets\MemberAssets\Hans_ImprotAssest\laxer Assets\Terrain Shader\Shaders\custom terrain Bump fade.shader" />
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
     <None Include="Assets\MemberAssets\Su_ImportAssets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
@@ -1113,8 +1128,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.UI">
@@ -1127,10 +1142,6 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
@@ -1155,10 +1166,6 @@
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
@@ -1187,6 +1194,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="CFXREditor.csproj" />
+    <ProjectReference Include="CFXRRuntime.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

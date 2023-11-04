@@ -3381,6 +3381,7 @@ GameObject:
   - component: {fileID: 1306563196103872585}
   - component: {fileID: 5923871769969207985}
   - component: {fileID: 217855804135685634}
+  - component: {fileID: 7352336848050790063}
   - component: {fileID: 7315322431179108317}
   - component: {fileID: 224081500653192511}
   - component: {fileID: 5446323005336713474}
@@ -3458,10 +3459,24 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.36153412
-  m_Height: 1.8972702
+  m_Radius: 0.23
+  m_Height: 1.5
   m_Direction: 1
-  m_Center: {x: 0.0049057007, y: 0.6851053, z: -0.07771301}
+  m_Center: {x: 0, y: 0.7, z: 0}
+--- !u!114 &7352336848050790063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4199403792113439842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6f656eef7d3c5e48958a29d3e57fcf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 0}
+  explosionSound: {fileID: 0}
 --- !u!114 &7315322431179108317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3474,7 +3489,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93b59369a6bcbb44a9a374e1d6346e25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   forward_speed: 3
   backward_speed: 1.5
   rotate_speed: 1.5
@@ -3494,7 +3508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hand: {fileID: 6950071521511761940}
   bomb: {fileID: 54881357279131018, guid: 23f52cd0be26cdf49a3b895769844d6a, type: 3}
-  FireballSpeed: 500
+  FireballSpeed: 2000
 --- !u!114 &5446323005336713474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3507,8 +3521,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 153eab3628c0ea14493d9338ec755d41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  startPoint: {fileID: 0}
 --- !u!1 &4210956877782312509
 GameObject:
   m_ObjectHideFlags: 0
@@ -6426,7 +6438,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4690312555797905973}
   - component: {fileID: 6965264574719722454}
-  - component: {fileID: 6744049640140992199}
   - component: {fileID: 2308139050524498264}
   m_Layer: 0
   m_Name: Camera
@@ -6493,14 +6504,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &6744049640140992199
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7257898007522021190}
-  m_Enabled: 1
 --- !u!114 &2308139050524498264
 MonoBehaviour:
   m_ObjectHideFlags: 0
