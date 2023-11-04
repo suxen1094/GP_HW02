@@ -8,10 +8,11 @@ public class TankAttack : MonoBehaviour
     public Transform fireballSpawnPoint; 
     public float fireballSpeed = 50f;
     public float fireRate = 2.5f;
-    public float attackRange = 200f;  
+    public float attackRange = 50f;  
     public int maxHealth = 100;
     public int currentHealth;
     public HealthBar healthBar;
+    public AudioClip damageSound;
 
     private GameObject player;
     private Animator animator;
@@ -67,6 +68,7 @@ public class TankAttack : MonoBehaviour
     {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
+        audioSource.PlayOneShot(fireballSound);
 
         if (currentHealth <= 0)
         {
@@ -76,7 +78,6 @@ public class TankAttack : MonoBehaviour
 
     private void Die()
     {
-
         Destroy(gameObject); 
     }
 }
