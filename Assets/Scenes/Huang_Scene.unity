@@ -19497,6 +19497,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1911508684}
+  - component: {fileID: 1911508685}
   m_Layer: 0
   m_Name: endPoint
   m_TagString: EndPoint
@@ -19519,6 +19520,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1911508685
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911508683}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.3879714, y: 64.478615, z: 4.9963136}
+  m_Center: {x: -3.0129023, y: 0.8587476, z: 1.9014541}
 --- !u!1001 &1915866190
 PrefabInstance:
   m_ObjectHideFlags: 0

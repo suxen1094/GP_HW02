@@ -67,6 +67,7 @@
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\ZombieDisappear.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
     <Compile Include="Assets\MemberAssets\Chiang_Asset\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoRotate.cs" />
@@ -85,7 +86,9 @@
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Su\BombHandler.cs" />
+    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\FlashlightControl.cs" />
     <Compile Include="Assets\MemberAssets\Su_ImportAssets\UnityTechnologies\ParticlePack\Shared\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
@@ -119,7 +122,7 @@
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
-    <Compile Include="Assets\MemberAssets\LinWanChing\Menu\Script\MenuScript.cs" />
+    <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
     <Compile Include="Assets\MemberAssets\Chiang_Asset\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightFlicker.cs" />
     <Compile Include="Assets\Scripts\Huang_Scripts\AnimationController.cs" />
@@ -127,9 +130,6 @@
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
     <Compile Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
     <Compile Include="Assets\Scripts\Su\PlayerStatusHandle.cs" />
-    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\ZombieDisappear.cs" />
-    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\FlashlightControl.cs" />
-    <Compile Include="Assets\MemberAssets\Hans_ImprotAssest\script\SceneHans\CameraFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MemberAssets\Chen_ImportAssets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />

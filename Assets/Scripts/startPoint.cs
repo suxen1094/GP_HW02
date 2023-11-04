@@ -6,7 +6,7 @@ public class startPoint : MonoBehaviour
 {
     private GameObject player;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         player = GameObject.Find("unitychan");
         player.GetComponent<Transform>().position = transform.position;

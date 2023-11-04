@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LifeControll : MonoBehaviour
 {
@@ -23,7 +24,7 @@ public class LifeControll : MonoBehaviour
     void Update()
     {
         // Fall out of the map
-        if (player.transform.position.y < -20)
+        if (player.transform.position.y < -20 && SceneManager.GetActiveScene().buildIndex != 3)
         {
             playerStatusHandle.currentHP = -10;
         }
