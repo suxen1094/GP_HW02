@@ -6,6 +6,7 @@ public class TankAttack : MonoBehaviour
 {
     public GameObject fireballPrefab; 
     public Transform fireballSpawnPoint; 
+    public AudioClip fireballSound;
     public float fireballSpeed = 50f;
     public float fireRate = 2.5f;
     public float attackRange = 50f;  
