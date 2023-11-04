@@ -23,5 +23,3 @@ This is the repository of HW 2 for Game Programming on 2023 Fall in NTHU
 ## Things need to be done (11/4 by Su)
 
 1. Menu的遊戲規則的撰寫以及GUI
-2. 勝利條件
-3. 需要確保所有的敵人都被打敗了才可以進入下一個stage
