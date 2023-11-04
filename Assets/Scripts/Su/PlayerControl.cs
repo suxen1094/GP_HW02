@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.PlayerLoop;
 public class PlayerControl : MonoBehaviour
 {
-    public GameObject player;
+    private GameObject player;
     public float forward_speed = 5.0f;
     public float backward_speed = 2.0f;
     public float rotate_speed = 2.0f;
