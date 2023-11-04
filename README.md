@@ -1,10 +1,25 @@
 # GP_HW02
 This is the repository of HW 2 for Game Programming on 2023 Fall in NTHU
 
-## Basic control
+## Rules
 
-WSAD: Move
+### Operations of player
 
-Space: Jump
+* WSAD: Move
+* Space: Jump
+* J: AttacK, throwing a bomb
 
-J: AttacK
+### Other rules
+
+* Use attack to defeat the enemy.
+* When you can win
+    * Defeat every enemy, and use portals in the end of the map to go to the next stage.
+* When you will lose
+    * If you jump out of the world, you lose!!!
+    * If your HP become 0, you lose!!!
+
+## Things need to be done (11/4 by Su)
+
+1. Menu的遊戲規則的撰寫以及GUI
+2. 勝利條件
+3. 需要確保所有的敵人都被打敗了才可以進入下一個stage
