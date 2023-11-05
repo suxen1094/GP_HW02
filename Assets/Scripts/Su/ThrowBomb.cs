@@ -24,23 +24,47 @@ public class ThrowBomb : MonoBehaviour
         back_state = Animator.StringToHash("Base Layer.WALK00_B");
     }
 
+    // void FixedUpdate()
+    // {
+    //     AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
+    //     // If current state is locomotion or idle
+    //     if (state.fullPathHash == locomotion_state || state.fullPathHash == idle_state || state.fullPathHash == back_state)
+    //     {
+    //         // If clicking mouse left
+    //         if (Input.GetKey(KeyCode.J) && !animator.IsInTransition(0))
+    //         {
+    //             prefab = Instantiate(bomb, hand.transform.position, Quaternion.identity);
+    //             direction = hand.transform.position - player.transform.position;
+    //             prefab.GetComponent<Rigidbody>().AddForce(new Vector3(
+    //                 direction.x, 
+    //                 0, 
+    //                 direction.z) * FireballSpeed);
+    //             prefab.GetComponent<Rigidbody>().AddTorque(new Vector3(1, 0, 0) * 5);
+    //         }
+    //     }
+    // }
     void FixedUpdate()
     {
         AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
-        // If current state is locomotion or idle
         if (state.fullPathHash == locomotion_state || state.fullPathHash == idle_state || state.fullPathHash == back_state)
         {
-            // If clicking mouse left
             if (Input.GetKey(KeyCode.J) && !animator.IsInTransition(0))
             {
-                prefab = Instantiate(bomb, hand.transform.position, Quaternion.identity);
-                direction = hand.transform.position - player.transform.position;
-                prefab.GetComponent<Rigidbody>().AddForce(new Vector3(
-                    direction.x, 
-                    0, 
-                    direction.z) * FireballSpeed);
-                prefab.GetComponent<Rigidbody>().AddTorque(new Vector3(1, 0, 0) * 5);
+                StartCoroutine(DelayedInstantiate());
             }
         }
+    }
+
+    IEnumerator DelayedInstantiate()
+    {
+        // 等待0.5秒，讓炸彈配合動畫
+        yield return new WaitForSeconds(0.5f);
+        prefab = Instantiate(bomb, hand.transform.position, Quaternion.identity);
+        direction = hand.transform.position - player.transform.position;
+        prefab.GetComponent<Rigidbody>().AddForce(new Vector3(
+            direction.x,
+            0,
+            direction.z) * FireballSpeed);
+        prefab.GetComponent<Rigidbody>().AddTorque(new Vector3(1, 0, 0) * 5);
     }
 }
