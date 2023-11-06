@@ -5344,7 +5344,7 @@ MonoBehaviour:
   fireballSound: {fileID: 8300000, guid: de02a765cb6944dc0820e68fc2988a24, type: 3}
   fireballSpeed: 25
   fireRate: 2.5
-  attackRange: 200
+  attackRange: 50
   maxHealth: 100
   currentHealth: 100
   healthBar: {fileID: 1637078056}
@@ -7345,7 +7345,7 @@ MonoBehaviour:
   fireballSound: {fileID: 8300000, guid: de02a765cb6944dc0820e68fc2988a24, type: 3}
   fireballSpeed: 25
   fireRate: 2.5
-  attackRange: 200
+  attackRange: 50
   maxHealth: 100
   currentHealth: 100
   healthBar: {fileID: 532034676}
@@ -7463,7 +7463,7 @@ MonoBehaviour:
   fireballSound: {fileID: 8300000, guid: de02a765cb6944dc0820e68fc2988a24, type: 3}
   fireballSpeed: 25
   fireRate: 2.5
-  attackRange: 200
+  attackRange: 50
   maxHealth: 100
   currentHealth: 100
   healthBar: {fileID: 1147445627}
@@ -9052,7 +9052,7 @@ MonoBehaviour:
   fireballSound: {fileID: 8300000, guid: de02a765cb6944dc0820e68fc2988a24, type: 3}
   fireballSpeed: 25
   fireRate: 2.5
-  attackRange: 200
+  attackRange: 50
   maxHealth: 100
   currentHealth: 100
   healthBar: {fileID: 1653570183}
@@ -11346,7 +11346,7 @@ MonoBehaviour:
   fireballSound: {fileID: 8300000, guid: de02a765cb6944dc0820e68fc2988a24, type: 3}
   fireballSpeed: 25
   fireRate: 2.5
-  attackRange: 200
+  attackRange: 50
   maxHealth: 100
   currentHealth: 100
   healthBar: {fileID: 741588127}
@@ -13753,7 +13753,7 @@ MonoBehaviour:
   fireballSound: {fileID: 8300000, guid: de02a765cb6944dc0820e68fc2988a24, type: 3}
   fireballSpeed: 25
   fireRate: 2.5
-  attackRange: 200
+  attackRange: 50
   maxHealth: 100
   currentHealth: 100
   healthBar: {fileID: 1279557577}
@@ -16095,7 +16095,7 @@ MonoBehaviour:
   fireballSound: {fileID: 8300000, guid: de02a765cb6944dc0820e68fc2988a24, type: 3}
   fireballSpeed: 25
   fireRate: 2.5
-  attackRange: 200
+  attackRange: 50
   maxHealth: 100
   currentHealth: 100
   healthBar: {fileID: 116521755}
