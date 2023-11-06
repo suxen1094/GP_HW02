@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -745,6 +745,14 @@ PrefabInstance:
       propertyPath: attentionText
       value: 
       objectReference: {fileID: 1582062728}
+    - target: {fileID: 6290567288411865636, guid: 664ae079aac5e7d44a13815eead0910e, type: 3}
+      propertyPath: CameraDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6290567288411865636, guid: 664ae079aac5e7d44a13815eead0910e, type: 3}
+      propertyPath: ShoulderOffset.y
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7352336848050790063, guid: 664ae079aac5e7d44a13815eead0910e, type: 3}
       propertyPath: explosion
       value: 
@@ -807,6 +815,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7861730199755111417, guid: 664ae079aac5e7d44a13815eead0910e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348131396689749054, guid: 664ae079aac5e7d44a13815eead0910e, type: 3}
+      propertyPath: m_Damping
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
