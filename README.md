@@ -22,6 +22,6 @@ This is the repository of HW 2 for Game Programming on 2023 Fall in NTHU
 
 ## Things need to be done (11/8 by Su)
 
-1. Menu的遊戲規則的撰寫以及GUI
-2. 把所有的Scripts放在".\Scripts"資料夾下
-3. 記得去eeclass的公告看上傳的規則
+1. 放Skybox!
+2. 寫Report!!
+3. 準備Prototype!!!
