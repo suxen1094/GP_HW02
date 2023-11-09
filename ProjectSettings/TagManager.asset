@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - HealingItem
+  - Monster
+  - StartPoint
+  - EndPoint
+  - Audio
+  - FireBall
+  - Bomb
   layers:
   - Default
   - TransparentFX
